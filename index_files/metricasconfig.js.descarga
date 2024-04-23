@@ -1,0 +1,43 @@
+function setMetricas(appId){
+    document.addEventListener("DOMContentLoaded", getURL(appId,null));
+};
+
+function getURL(appId,url,device) {
+    var stringValue;
+    if (url === null) stringValue = getStringValue();
+    else stringValue = url;
+
+    callRequest(stringValue,appId,device);
+}
+
+function getStringValue(){
+    let value;
+    let locationHref = window.location.href;
+    value = locationHref.replace("https://", "");
+    value = locationHref.replace(".", "_");
+    value = locationHref.replace(":", "_");
+    value = locationHref.replace("/", "_");
+    return value;
+}
+
+async function callRequest(stringValue,appId,device){
+    const response = await fetch("https://bdvmetricas.banvenez.com.ve/registerpage",{
+        method:'PUT',
+        headers: {
+            'Content-Type': 'application/json',
+            'APPID': appId,
+        },
+        credentials:'include',
+        body:JSON.stringify(
+            {
+                url:stringValue,
+                appId:appId,
+                device:device
+            })
+    })
+    return response;
+}
+
+document.addEventListener("beforeunload", function (e) {
+  document.cookie = "MET=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;Secure; SameSite=None";
+});
